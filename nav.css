@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html{
+ font-size: 10px;
+ font-family: 'Jura', sans-serif;
+ scroll-behavior: smooth;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+    background-color: #fff9f9;
+    overflow-x: hidden;
+}
+
+/* common */
+.mainhead{
+    width: 60%;
+    font-size: 2.5rem;
+    border-left: 5px solid #089d6b;
+    padding: 0rem 1.5rem;
+    margin: 2.5rem 0rem;
+    letter-spacing: 1px;
+}
+
+/*color*/
+.ccolor{
+	color: #5d0707f4;
+	/*background-color: #cc7a00;*/
+}
+
+.heads span{
+   border-bottom: 2px solid #5d0707f4;
+}
+
+/*.border{
+	border-bottom:;
+}*/
+
+/*hero section	*/
+#hero{
+  width: 100%;
+  height: 100%;
+	
+}
+
+.hero{
+	width: 100%;
+	height: 100%;
+  position: relative;
+  /*margin-top: 10rem;*/
+ 
+}
+
+.ham{
+  display: none;
+}
+
+
+#mainmidscroll{
+  position: absolute;
+  z-index: 100000;
+  top: -11%;
+
+}
+/*nav section */
+#nav{
+  width: 100%;
+  /*height: 100%;*/
+	position: relative;
+}
+
+.nav{
+  position: relative;
+  width: 100%;
+  /*background-color: #222;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000000;
+  /*background-color:  #14141f;*/
+}
+
+/* .nav:before{
+  content: " ";
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+} */
+
+.navopacity{
+  opacity: 0.8;
+}
+
+.nav > *{
+  z-index: 100000;
+}
+
+/*nav top section*/
+.navtop{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem;
+transition: 0.2s ease;
+background-color:#f0ecec ;
+}
+
+.navtophide{
+  transform: translateY(-100rem);
+  opacity: 0;
+  display: none;
+}
+
+.navtop .navcont{
+  display: flex;
+  align-items: center;
+  margin-left: -5rem;
+}
+
+.navcont .navcall,.navcont .navmail{
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navcont a{
+  color: black;
+  transition: 0.2s ease;
+}
+
+.navcont a:hover {
+  color:#a3a3c2;
+}
+
+.navcont img{
+ width: 15px;
+ margin-left: 1rem;
+}
+
+.navcont p{
+  font-size: 1.2rem;
+  letter-spacing: 1.55px;
+  margin-left: 1rem;
+}
+
+
+.navtop .navsocial ul{
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.navsocial img{
+  width: 18px;
+}
+
+.navtop li{
+list-style: none;
+margin-left: 1rem;
+}
+/*end nav top section*/
+
+/* nav mid section */
+
+.navmid{
+  width: 100%;
+   display: flex;
+   text-align: center;
+  /*flex-direction: column;*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlogo{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0rem;
+    cursor: pointer;
+}
+
+.navlogo img{
+    width: 50px;
+}
+
+.navlogo h2{
+  font-size: 2.5rem;
+  color: #d6a719;
+  /* float: right; */
+  letter-spacing: 1.5px;
+  margin-left: 0.5rem;
+/* font-family: 'Jura', sans-serif; */
+}
+
+
+.navlogo span{
+    color: #920e0ef4;
+  border-bottom: 1.9px solid #5d0707f4;
+}
+
+.navlist{
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+
+.navlist ul{
+	display: flex;
+    align-items: center;
+	list-style: none;
+}
+
+.navlist .navitem{
+	font-weight: 800;
+	margin-left: 3rem;
+	margin-bottom: -1rem;
+	text-transform: uppercase;
+	font-family: 'Jura', sans-serif;
+
+}
+
+.navlist .navlink{
+	color: black;
+		opacity: 0.8;
+	font-size: 1.3rem;
+}
+
+.navlist .navlink:hover{
+   color:#5d0707f4;
+}
+
+ .navlink.active{
+     color: #5d0707f4;
+     opacity: 1;
+  } 
+
+
+  /* navlist right */
+  .navright{
+    width: 80%;
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  .navright ul{
+    display: flex;
+    list-style: none;
+  }
+
+  .navright ul li{
+    font-size: 1.4rem;
+    margin-left: 1.8rem;
+  }
+
+
+
+  .navright .navins p{
+   font-size: 1.2rem;
+  }
+
+  .navright .navins h2{
+    font-size: 1.4rem;
+  }
+
+  .navright .navinsimg{
+    display: none;
+  }
+
+ 
+
+  .navright .navins img{
+    width: 30px;
+    opacity: 0.8;
+}
+
+
+
+  /* navright dropdown */
+  .navright .dropmain,.navright .navitem{
+    position: relative;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .dropitem .dropdown {
+     visibility: hidden;
+     transform: translateY(-5rem);
+     min-width: 8rem;
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     transition:  0.5s ease;
+     margin-top: 1rem;
+     top:0;
+     right:0;
+     left:0rem;
+     bottom: 0;
+     z-index: 100;
+     padding: 0rem;
+     opacity: 0;
+     list-style: none;
+   }
+   
+
+   .drop{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: white;
+   }
+
+   .navright .dropdown .dropm{
+    width: 21rem;
+   }
+   
+   .navright .dropdown .dropm .droplist{
+    margin-left: -6rem;
+   }
+
+   .navright .dropdown .drop .dropinfo h2{
+    font-size: 1.5rem;
+    margin-left: -10.5rem;
+   }
+
+   .navright .dropdown .drop .dropinfo p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: left;
+    border-bottom: 1px solid #8f8e8e71;
+    padding-bottom: 2rem;
+    opacity: 0.9;
+   }
+   
+   
+   
+   .dropitem:hover  ul{
+     visibility: visible;
+     transform: translateY(0%);
+     opacity: 1;
+   }
+   
+  /* end navright dropdown */
+/* end navlist right */
+
+  /* search form */
+  .nav .midnav .searchform input{
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 0.0001px solid #d6a719;
+    background-color: transparent;
+  }
+
+  .nav .midnav .searchform button{
+    background-color: #dea81e;
+    padding: 1.08rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    margin-left: -0.3rem;
+    cursor: pointer;
+    color: white;
+  }
+  /* end search form */
+
+
+
+/* nav bot section */
+.navbot {
+    width: 100%;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 2rem;
+    z-index: 10;
+}
+
+
+.navbot .navul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbot .navul a{
+    font-size: 1.7rem;
+    color: white;
+    opacity: 1;
+    padding: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+}
+
+.navbot .navul a:hover{
+    background-color: #dea81e;
+}
+
+
+.navbot .navul a.active{
+    background-color: #dea81e;
+}
+
+.navbot .navul .navitem{
+    margin-left: 5rem; 
+}
+
+.navbot .shopbycat .shopmain{
+    display: flex;
+    align-items: center;
+  margin-left: 20rem;
+  background-color: rgb(79, 79, 80);
+  padding: 1.5rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.navbot .shopbycat h2{
+    margin-left: 1rem;
+}
+
+
+.navbot .shopbycat img{
+    width: 20px;
+    margin-top: 0.17rem;
+}
+
+.navbot .shopbycat .arrow{
+    margin-left: 3.5rem;
+   
+}
+
+
+/* dropdown */
+.shopbycat ul {
+    background-color: white;
+     visibility: hidden;
+     transform: translateY(-5rem);
+     width: 5rem;
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     transition:  0.5s ease;
+     margin-top: 1rem;
+     left: 20rem;
+   /*  display: none;*/
+     padding: 2rem;
+     z-index: -1;
+     opacity: 0;
+     list-style: none;
+   }
+   
+   
+   .dropdown .navlink{
+     font-size: 1.5rem;
+     color: black;
+     padding: 1rem;
+     margin-top: 2rem;
+     transition: 0.2s ease;
+     letter-spacing: 1px;
+   }
+   
+   .dropdown .dropm{
+     width: 23.5rem;
+     border-right: 2px solid #dea81e;
+   }
+   
+   
+   
+   .shopbycat:hover  ul{
+     visibility: visible;
+     transform: translateY(0%);
+     opacity: 1;
+   }
+
+   .shopbycat .drop{
+    margin-top: -4rem;
+   }
+   
+   .drop ul li {
+     clear: both;
+     width: 100%;
+     margin-top: 0.5rem;
+   }
+
+   .drop .navitem{
+    margin-top: 2rem;
+   }
+   
+   .drop .navlink:hover{
+    color: white;
+    background-color: #dea81e;
+   }
+   
+/* end dropdown */
+.navbot .logul{
+ display: none;
+}
+
+.navbot .logul a:hover{
+  background-color: #a3a3c2;    
+}
+
+/* end nav bot section */
+/*end nav section*/
