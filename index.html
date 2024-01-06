@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 10 99Family</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
 </head>
 <body>
   
@@ -47,8 +47,8 @@
                    </div>
                    <div class="navlist midnav">
                        <ul class="navul">
-                           <li class="navitem"><a href="#home" class="navlink active">Home</a></li>
-                           <li class="navitem"><a href="#allcat" class="navlink">All Categories</a></li>
+                           <li class="navitem"><a href="#nav" class="navlink active">Home</a></li>
+                           <li class="navitem"><a href="#popular-category" onclick="scrollToPopCat()" class="navlink">Popular Categories</a></li>
                            <li class="navitem">
                              <form action="" class="searchform">
                                 <input type="text" placeholder="What do you need?">
@@ -115,19 +115,19 @@
                     <div class="dropmain">
                         <ul class="dropdown">
                             <div class="drop dropm">
-                            <li class="navitem homeacc"><a href="#Ethnic" class="navlink">Ethnic Wears</a></li>
-                            <li class="navitem"><a href="#Footwear" class="navlink">Footwears</a></li>
-                            <li class="navitem"><a href="#Stationary" class="navlink">Stationary</a></li>
-                            <li class="navitem"><a href="#Sports" class="navlink">Sports Corner</a></li>
+                            <li class="navitem homeacc"><a href="./category/specifiedcategory.html" class="navlink">Ethnic Wears</a></li>
+                            <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Footwears</a></li>
+                            <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Stationary</a></li>
+                            <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Sports Corner</a></li>
                         </div>
                         </ul>
                     </div>
                   </div>
                   <ul class="navul" id="navul">
-                    <li class="navitem homeacc"><a href="#homeaccessories" class="navlink">Home Accessories</a></li>
-                    <li class="navitem"><a href="#Kitchen" class="navlink">Kitchen & Dining</a></li>
-                    <li class="navitem"><a href="#bathroom" class="navlink">Bathroom</a></li>
-                    <li class="navitem"><a href="#giftanddecor" class="navlink">Gift & Decor</a></li>
+                    <li class="navitem homeacc"><a href="./category/specifiedcategory.html" class="navlink">Home Accessories</a></li>
+                    <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Kitchen & Dining</a></li>
+                    <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Bathroom</a></li>
+                    <li class="navitem"><a href="./category/specifiedcategory.html" class="navlink">Gift & Decor</a></li>
                   </ul>
                   <ul class="logul navul" id="navul">
                     <li class="navitem homeacc"><a href="#Wishlist" class="navlink">Wishlist</a></li>
@@ -140,8 +140,239 @@
     </div>
   </section>
   <!-- end  nav section  -->
+
+  
+
+  <!-- main section -->
+  <section id="main">
+    <div class="main">
+        <div class="main-slide">
+             <!-- Slideshow container -->
+          <div class="slideshow-container">
+
+         <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <a href="#1"><img src="./assets/img/img3.jpg" style="width:100%"></a>
+            <div class="text">Caption Text</div>
+         </div>
+
+         <div class="mySlides fade">
+          <a href="#2"><img src="./assets/img/img2.jpg" style="width:100%"></a>
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <a href="#3"><img src="./assets/img/img1.jpg" style="width:100%"></a>
+          <div class="text">Caption Three</div>
+        </div>
+
+  <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+    <!-- The dots/circles -->
+        <div style="text-align:center" class="dots">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </div>
+    </div>
+  </section>
+   <!-- end main section -->
+
+  <!-- popular Categories  -->
+  <section  id="pop-cate">
+    <div class="pop-cate main99">
+      <div class="pophead head99">
+        <h2>Popular Categories ↓</h2>
+         <div class="explorebtn">
+          <a href="./category/category.html">Expl<span>ore More →</span></a>
+         </div>
+      </div>
+      <div class="popmain">
+        <!-- main popular category -->
+        <div class="popm pop1">
+           <div class="popimg">
+              <img src="./assets/img/popular/fashion.jpg" alt="">
+           </div>
+           <div class="poptext">
+              <div class="poptexthead">
+                 <h2>Fashion & Apparel</h2>
+              </div>
+              <div class="poptextbut">
+                <a href="">Sho<span>p Now →</span></a>
+              </div>
+           </div>
+        </div>
+        <!-- end main popular category -->
+        <div class="popm pop2">
+          <div class="popimg">
+            <img src="./assets/img/popular/home2.jpg" alt="">
+         </div>
+         <div class="poptext">
+            <div class="poptexthead">
+               <h2>Home Accessories</h2>
+            </div>
+            <div class="poptextbut">
+              <a href="">Sho<span>p Now →</span></a>
+            </div>
+         </div>
+        </div>
+        <div class="popm pop3">
+          <div class="popimg">
+            <img src="./assets/img/popular/kitchen2.jpg" alt="">
+         </div>
+         <div class="poptext">
+            <div class="poptexthead">
+               <h2>Kitchen Appliances</h2>
+            </div>
+            <div class="poptextbut">
+              <a href="">Sho<span>p Now →</span></a>
+            </div>
+         </div>
+        </div>
+        <div class="popm pop4">
+          <div class="popimg">
+            <img src="./assets/img/popular/bathroom2.jpg" alt="">
+         </div>
+         <div class="poptext">
+            <div class="poptexthead">
+               <h2>Bathroom Accessories</h2>
+            </div>
+            <div class="poptextbut">
+              <a href="">Sho<span>p Now →</span></a>
+            </div>
+         </div>
+        </div>
+        <div class="popm pop4">
+          <div class="popimg">
+            <img src="./assets/img/popular/gift2.jpg" alt="">
+         </div>
+         <div class="poptext">
+            <div class="poptexthead">
+               <h2>Gift and Decor</h2>
+            </div>
+            <div class="poptextbut">
+              <a href="">Sho<span>p Now →</span></a>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end popular Categories -->
+   <!-- offers section -->
+   <section id="offer">
+    <div class="offer main99">
+           
+           <!-- todays offer -->
+           <div class="today-offer ofm">
+             <div class="todayhead ohead head99">
+                 <h2>Deals of the Day ↓</h2> 
+                 <div class="explorebtn">
+                  <a href="./category/category.html">Expl<span>ore More →</span></a>
+                 </div>
+             </div>
+             <div class="todaymain omain">
+                  <!-- main todays offer -->
+                 <div class="tpo tpo1 prodoffer">
+                    <div class="prodimg">
+                      <img src="./assets/img/deal/fashion.jpg" alt="">
+                    </div>
+                    <div class="prodtext">
+                      <div class="prodtexthead">
+                        <h2>Fashion & Apparel</h2>
+                     </div>
+                     <div class="prodban">
+                      <h2>Buy Now at 10% Off !!</h2>
+                     </div>
+                     <div class="prodtextbut">
+                       <a href="">Sho<span>p Now →</span></a>
+                       <p>T&C Applied.</p>
+                     </div>
+                    </div>
+                 </div>
+                 <!-- end main todays offer -->
+                 <div class="tpo tpo1 prodoffer">
+                  <div class="prodimg">
+                    <img src="./assets/img/deal/winter.jpg" alt="">
+                  </div>
+                  <div class="prodtext">
+                    <div class="prodtexthead">
+                      <h2>Winter Collection</h2>
+                   </div>
+                   <div class="prodban">
+                    <h2>Flat 15% Off !!</h2>
+                   </div>
+                   <div class="prodtextbut">
+                     <a href="">Sho<span>p Now →</span></a>
+                     <p>T&C Applied</p>
+                   </div>
+                  </div>
+               </div>
+               <div class="tpo tpo1 prodoffer">
+                <div class="prodimg">
+                  <img src="./assets/img/deal/kitchen.jpg" alt="">
+                </div>
+                <div class="prodtext">
+                  <div class="prodtexthead">
+                    <h2>Kitchen Appliances</h2>
+                 </div>
+                 <div class="prodban">
+                  <h2>Disount upto 40% !!</h2>
+                 </div>
+                 <div class="prodtextbut">
+                   <a href="">Sho<span>p Now →</span></a>
+                   <p>T&C Applied</p>
+                 </div>
+                </div>
+             </div>
+
+             </div>
+           </div>
+           <!-- end todays offer -->
+            <!-- top Deals -->
+            <div class="top-offer ofm">
+              <div class="tophead ohead head99">
+                  <h2>Top Deals ↓</h2> 
+                  <div class="explorebtn">
+                   <a href="./category/category.html">Expl<span>ore More →</span></a>
+                  </div>
+              </div>
+              <div class="topmain omain">
+                   <!-- main todays offer -->
+                  <div class="tpo tpo1 prodoffer">
+                     <div class="prodimg">
+                       <img src="./assets/img/deal/fashion.jpg" alt="">
+                     </div>
+                     <div class="prodtext">
+                       <div class="prodtexthead">
+                         <h2>Fashion & Apparel</h2>
+                      </div>
+                      <div class="prodban">
+                       <h2>Buy Now at 10% Off !!</h2>
+                      </div>
+                      <div class="prodtextbut">
+                        <a href="">Sho<span>p Now →</span></a>
+                        <p>T&C Applied.</p>
+                      </div>
+                     </div>
+                  </div>
+                  <!-- end main todays offer -->
+                
+              </div>
+            </div>
+            <!-- end top deals -->
+    </div>
+   </section>
+  <!-- end offers section -->
    
-  <script src="script.js"></script>
+  <script src="./assets/script/script.js"></script>
+  <script src="./assets/script/slide.js"></script>
   <script>
 // Get the container element
 var btnContainer = document.getElementById("navul");
@@ -162,6 +393,8 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 </script>
+
+
     
 </body>
 </html>

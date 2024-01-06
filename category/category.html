@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category: </title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/mobile.css">
+</head>
+<body>
+     <!-- nav section -->
+   <section id="nav">
+    <div class="nav">
+      <div class="backblacknav"></div>
+      <div class="ham">
+           <div class="line l1"></div>
+           <div class="line l2"></div>
+           <div class="line l3"></div>
+         </div>
+                   <div class="navtop">
+                       <div class="navsocial">
+               <ul>
+                 <li><a href=""><img src="icon/navi/fb.png" alt=""></a></li>
+                   <li><a href=""><img src="icon/navi/insta.png" alt=""></a></li>
+                     <li><a href=""><img src="icon/navi/linkedin.png" alt=""></a></li>
+
+               </ul>
+             </div>
+             <div class="navcont">
+               <div class="navcall navcontitem">
+                 <img src="../assets/icon/navi/call.png" alt="">
+                 <p><a href="">+91 9999999999</a></p>
+               </div>
+               <div class="navmail navcontitem">
+                 <img src="../assets/icon/navi/mail.png" alt="">
+                 <p><a href="">collegexyz@gmail.com</a></p>
+               </div>
+             </div>
+                   </div>
+
+                   <div class="navmid">
+                   <div class="navlogo">
+                    <img src="../assets/icon/logo.webp" alt="">
+                       <a href="../index.html"><h2>99<span>Family</span></h2></a>
+                   </div>
+                   <div class="navlist midnav">
+                       <ul class="navul">
+                           <li class="navitem"><a href="#home" class="navlink active">Home</a></li>
+                           <li class="navitem"><a href="#allcat" class="navlink">All Categories</a></li>
+                           <li class="navitem">
+                             <form action="" class="searchform">
+                                <input type="text" placeholder="What do you need?">
+                                <button type="submit">Search</button>
+                             </form>
+                           </li>  
+                       </ul>
+                   </div>
+
+                   <div class="navright">
+                      <ul>
+                        <li>
+                            <div class="navins navinsimg">
+                                <img src="../assets/icon/search.png" alt="">
+                            </div>
+                        </li>
+                        <li class="navitem dropitem">
+                            <div class="navinstext navins">
+                                <p>Hello, Sign In</p>
+                                <h2>Accounts & Settings <span>↓</span></h2>
+                            </div>
+                            <div class="navinsimg navins">
+                                <img src="../assets/icon/acc.png" alt="">
+                            </div>
+                            <div class="dropmain">
+                                <ul class="dropdown">
+                                    
+                                    <div class="drop dropm">
+                                        <div class="dropinfo">
+                                            <h2>Welcome,</h2>
+                                            <p>Here You Can manage your Accounts and Orders</p>
+                                        </div>
+                                        <div class="droplist">
+                                    <li class="navitem homeacc"><a href="./main/user/register/register.html" class="navlink">Sign In</a></li>
+                                    <li class="navitem"><a href="#myaccount" class="navlink">My Account</a></li>
+                                    <li class="navitem"><a href="#myorders" class="navlink">My Orders</a></li>
+                                    <li class="navitem"><a href="#contact" class="navlink">Contact Us</a></li>
+                                </div>
+                                </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="navins">
+                            <a href=""><img src="../assets/icon/cart.png" alt=""></a> 
+                        </div>
+                        </li>
+                        <li>
+                            <div class="navins navwish">
+                                <a href=""><img src="../assets/icon/wish.png" alt=""></a>
+                            </div>
+                        </li>
+                      </ul>
+                   </div>
+               </div>
+
+               <div class="navbot">
+                  <div class="shopbycat">
+                    <div class="shopmain">
+                    <img src="../assets/icon/ham.png" alt="">
+                    <h2>Shop By Categories</h2>
+                    <img src="../assets/icon/arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="dropmain">
+                      <ul class="dropdown">
+                          <div class="drop dropm">
+                          <li class="navitem homeacc"><a href="specifiedcategory.html" class="navlink">Ethnic Wears</a></li>
+                          <li class="navitem"><a href="specifiedcategory.html" class="navlink">Footwears</a></li>
+                          <li class="navitem"><a href="specifiedcategory.html" class="navlink">Stationary</a></li>
+                          <li class="navitem"><a href="specifiedcategory.html" class="navlink">Sports Corner</a></li>
+                      </div>
+                      </ul>
+                  </div>
+                </div>
+                <ul class="navul" id="navul">
+                  <li class="navitem homeacc"><a href="specifiedcategory.html" class="navlink">Home Accessories</a></li>
+                  <li class="navitem"><a href="specifiedcategory.html" class="navlink">Kitchen & Dining</a></li>
+                  <li class="navitem"><a href="specifiedcategory.html" class="navlink">Bathroom</a></li>
+                  <li class="navitem"><a href="specifiedcategory.html" class="navlink">Gift & Decor</a></li>
+                </ul>
+                <ul class="logul navul" id="navul">
+                  <li class="navitem homeacc"><a href="#Wishlist" class="navlink">Wishlist</a></li>
+                  <li class="navitem"><a href="#Logout" class="navlink">Logout</a></li>
+                </ul>
+             </div>
+
+
+               
+    </div>
+  </section>
+  <!-- end  nav section  -->
+
+   
+  <script src="../assets/script/script.js"></script>
+  <!-- <script src="../assets/script/slide.js"></script> -->
+  <script>
+// Get the container element
+var btnContainer = document.getElementById("navul");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("navlink");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    for (var j = 0; j < btns.length; j++) {
+      btns[j].classList.remove("active");
+    }
+
+    // Add "active" class to the clicked button
+    this.classList.add("active");
+  });
+}
+
+</script>
+
+</body>
+</html>
