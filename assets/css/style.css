@@ -414,7 +414,6 @@ body{
 /* end today offer */
 /* top deals */
 .ofm .topmain{
-  justify-content: center;
   margin-top: -1rem;
 }
 
