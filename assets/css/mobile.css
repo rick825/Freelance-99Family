@@ -95,7 +95,7 @@
      /* navbot section */
     .navbot{
         position: fixed;
-        height: 70rem;
+        height: 78rem;
         top:-4%;
         background-color: rgb(239, 242, 245);
         flex-direction: column;
@@ -164,4 +164,110 @@
         bottom: 8%;
      }
      /* end main section */
+
+     /* offer section */
+     .head99{
+        width: 80%;
+     }
+
+     .head99 h2{
+        width: 50%;
+     }
+
+     .pop-cate .popmain{
+        align-items: center;
+     }
+
+     .pop-cate .popmain .popm{
+        width: 35rem;
+        height: 18rem;
+       /* margin-left: 2rem; */
+     }
+
+     .ofm .prodoffer{
+        margin-left: 0rem;
+        max-height: 21rem;
+        align-items: center;
+     }
+
+     .prodtextbut{
+        margin: 1rem 0;
+     }
+
+
+     .ofm .topmain{
+        justify-content: center;
+      align-items: center;
+     }
+
+     .ofm .topoffer{
+        margin-left: 0rem;
+        align-items: center;
+     }
+     /* end offer section */
+
+     /* footer section */
+     .footer{
+        position: relative;
+        padding: 1.5rem 2rem;
+     }
+
+     .footer .foottop{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .footer .footlogo{
+       align-items: center;
+     }
+
+     /* foot list */
+     .footer .foottop .footlist{
+        flex-direction: column;
+        margin-left: 1rem;
+     }
+     .footer .foottop .footlist .flist{
+     align-items: center;
+     text-align: center;
+     }
+
+     .footer .foottop .footlist .flist2{
+        margin-left: 0rem;
+        margin-top: 4rem;
+     }
+
+     
+     /* end foot list */
+     .footer .footmid{
+     margin-top: 2rem;
+     }
+
+     .footer .footmid .footicon{
+      flex-direction: column-reverse;
+      height: 100%;
+     }
+     
+
+     .footer .footmid .footicon .ficon{
+        margin-top: 2rem;
+     }
+
+     .footer .footmid .fpayment img{
+        margin-left: 1rem;
+     }
+
+     .footer .footbot{
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .footer .footbot .dd{
+        text-align: center;
+     }
+
+     .footer .footbot .copy{
+        margin-left: 0rem;
+        margin-top: 1rem;
+     }
+     /* end footer section */
     }
