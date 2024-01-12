@@ -270,4 +270,24 @@
         margin-top: 1rem;
      }
      /* end footer section */
+
+  /* category section */
+  .cmain{
+   margin-top: 6rem;
+  }
+
+  .cmaincont .cmainconttop .cmaint-sort{
+   margin-left: 1rem;
+  }
+
+  .cmainp{
+   margin-left: 0rem;
+  }
+
+  
+
+  .cmaincontbot .cmaincright{
+   height: 90%;
+  }
+  /* end category section  */
     }

@@ -7,7 +7,7 @@ function scrollFunction() {
   var nav = document.querySelector('.nav');
   var topnav = document.querySelector('.navtop');
 
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
        topnav.classList.add('navtophide');
   } else {
        topnav.classList.remove('navtophide');
