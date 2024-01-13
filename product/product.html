@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product:</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets//css/category.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+    <link rel="stylesheet" href="../assets/css/mobile.css">
+</head>
+<body>
+
+     <!-- nav section -->
+   <section id="nav">
+    <div class="nav">
+      <div class="backblacknav"></div>
+      <div class="ham">
+           <div class="line l1"></div>
+           <div class="line l2"></div>
+           <div class="line l3"></div>
+         </div>
+                   <div class="navtop">
+                       <div class="navsocial">
+               <ul>
+                 <li><a href=""><img src="../assets/icon/foot/fb.png" alt=""></a></li>
+                   <li><a href=""><img src="../assets/icon/foot/insta.png" alt=""></a></li>
+                     <li><a href=""><img src="../assets/icon/foot/x.png" alt=""></a></li>
+
+               </ul>
+             </div>
+             <div class="navcont">
+               <div class="navcall navcontitem">
+                 <img src="../assets/icon/navi/call.png" alt="">
+                 <p><a href="">+91 9999999999</a></p>
+               </div>
+               <div class="navmail navcontitem">
+                 <img src="../assets/icon/navi/mail.png" alt="">
+                 <p><a href="">collegexyz@gmail.com</a></p>
+               </div>
+             </div>
+                   </div>
+
+                   <div class="navmid">
+                   <div class="navlogo">
+                    <img src="../assets/icon/logo.webp" alt="">
+                       <a href="../index.html"><h2>99<span>Family</span></h2></a>
+                   </div>
+                   <div class="navlist midnav">
+                       <ul class="navul">
+                           <li class="navitem"><a href="#home" class="navlink active">Home</a></li>
+                           <li class="navitem"><a href="#allcat" class="navlink">All Categories</a></li>
+                           <li class="navitem">
+                             <form action="" class="searchform">
+                                <input type="text" placeholder="What do you need?">
+                                <button type="submit">Search</button>
+                             </form>
+                           </li>  
+                       </ul>
+                   </div>
+
+                   <div class="navright">
+                      <ul>
+                        <li>
+                            <div class="navins navinsimg">
+                                <img src="../assets/icon/search.png" alt="">
+                            </div>
+                        </li>
+                        <li class="navitem dropitem">
+                            <div class="navinstext navins">
+                                <p>Hello, Sign In</p>
+                                <h2>Accounts & Settings <span>↓</span></h2>
+                            </div>
+                            <div class="navinsimg navins">
+                                <img src="../assets/icon/acc.png" alt="">
+                            </div>
+                            <div class="dropmain">
+                                <ul class="dropdown">
+                                    
+                                    <div class="drop dropm">
+                                        <div class="dropinfo">
+                                            <h2>Welcome,</h2>
+                                            <p>Here You Can manage your Accounts and Orders</p>
+                                        </div>
+                                        <div class="droplist">
+                                    <li class="navitem homeacc"><a href="./main/user/register/register.html" class="navlink">Sign In</a></li>
+                                    <li class="navitem"><a href="#myaccount" class="navlink">My Account</a></li>
+                                    <li class="navitem"><a href="#myorders" class="navlink">My Orders</a></li>
+                                    <li class="navitem"><a href="#contact" class="navlink">Contact Us</a></li>
+                                </div>
+                                </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                        <div class="navins">
+                            <a href=""><img src="../assets/icon/cart.png" alt=""></a> 
+                        </div>
+                        </li>
+                        <li>
+                            <div class="navins navwish">
+                                <a href=""><img src="../assets/icon/wish.png" alt=""></a>
+                            </div>
+                        </li>
+                      </ul>
+                   </div>
+               </div>
+
+               <div class="navbot">
+                  <div class="shopbycat">
+                    <div class="shopmain">
+                    <img src="../assets/icon/ham.png" alt="">
+                    <h2>Shop By Categories</h2>
+                    <img src="../assets/icon/arrow.png" alt="" class="arrow">
+                    </div>
+                    <div class="dropmain">
+                      <ul class="dropdown">
+                          <div class="drop dropm">
+                          <li class="navitem homeacc"><a href="../category/../category/category.html" class="navlink">Ethnic Wears</a></li>
+                          <li class="navitem"><a href="../category/category.html" class="navlink">Footwears</a></li>
+                          <li class="navitem"><a href="../category/category.html" class="navlink">Stationary</a></li>
+                          <li class="navitem"><a href="../category/category.html" class="navlink">Sports Corner</a></li>
+                      </div>
+                      </ul>
+                  </div>
+                </div>
+                <ul class="navul" id="navul">
+                  <li class="navitem homeacc"><a href="../category/category.html" class="navlink">Home Accessories</a></li>
+                  <li class="navitem"><a href="../category/category.html" class="navlink">Kitchen & Dining</a></li>
+                  <li class="navitem"><a href="../category/category.html" class="navlink">Bathroom</a></li>
+                  <li class="navitem"><a href="../category/category.html" class="navlink">Gift & Decor</a></li>
+                </ul>
+                <ul class="logul navul" id="navul">
+                  <li class="navitem homeacc"><a href="#Wishlist" class="navlink">Wishlist</a></li>
+                  <li class="navitem"><a href="#Logout" class="navlink">Logout</a></li>
+                </ul>
+             </div>
+
+
+               
+    </div>
+  </section>
+  <!-- end  nav section  -->
+
+  <!-- product main -->
+  <section id="prod-main">
+    <div class="prod-main cmain">
+       <div class="top-prod-main">
+          <div class="mininav">
+            <ul class="mininav-list">
+            <li><a href="">Home</a><span>›</span></li> 
+            <li><a href="">Home Decoratives</a><span>›</span></li>
+            <li><a href="">Lamp</a></li>
+           </ul>
+          </div>
+       </div>
+       <div class="bot-prod-main">
+        <div class="left-prod-main botmain">
+          <div class="product-img">
+            <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="../assets/img/products/chineselamp.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="../assets/img/products/lamp.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="../assets/img/products/chineselamp.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="../assets/img/products/lamp.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="../assets/img/products/chineselamp.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="../assets/img/products/lamp.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <!-- <div class="caption-container">
+      <p id="caption"></p>
+    </div> -->
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/chineselamp.jpg" style="width:100%" onclick="currentSlide(1)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/lamp.jpg" style="width:100%" onclick="currentSlide(2)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/chineselamp.jpg" style="width:100%" onclick="currentSlide(3)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/lamp.jpg" style="width:100%" onclick="currentSlide(4)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/chineselamp.jpg" style="width:100%" onclick="currentSlide(5)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../assets/img/products/lamp.jpg" style="width:100%" onclick="currentSlide(6)" >
+       </div>
+      </div>
+    </div>
+    </div>
+  </div>
+   <div class="right-prod-main  botmain">
+     <div class="prodinfo">
+        <div class="prodhead">
+
+        </div>
+     </div>
+   </div>   
+  </div>
+  </div>
+</section>
+  <!-- end product main    -->
+
+ <!-- footer section -->
+     <section id="footer">
+        <div class="footer">
+         <div class="foottop">
+           <div class="footm footlogo">
+             
+             <div class="ftext fl">
+               <h2>Get updates on fun stuff you probably want to know about in your inbox.</h2>
+             </div>
+             <div class="finput fl">
+               <form action="#">
+                 <input type="email" name="" placeholder="Enter Your Email">
+                 <button>Submit</button>
+               </form>
+             </div>
+             <div class="flogo navlogo">
+               <img src="../assets/icon/logo.webp" alt="">
+                <h2>99<span>Family</span></h2>
+             </div>
+           </div>
+           <div class="footm footlist">
+             <div class="flist1 flist">
+               <div class="foothead">
+                 <h2>Menu</h2>
+               </div>
+                <ul>
+                 <li><a href="">Shop All</a></li>
+                 <li><a href="">About Us</a></li>
+                 <li><a href="">Community</a></li>
+                 <li><a href="">Categories</a></li>
+                </ul>
+             </div>
+             <div class="flist2 flist">
+               <div class="foothead">
+                 <h2>My99Account</h2>
+               </div>
+                <ul>
+                 <li><a href="">My Account</a></li>
+                 <li><a href="">My Orders</a></li>
+                 <li><a href="">My Wishlist</a></li>
+                 <li><a href="">My Shopping Bag</a></li>
+                </ul>
+             </div>
+             <div class="flist2 flist">
+               <div class="foothead">
+                 <h2>Support</h2>
+               </div>
+                <ul>
+                 <li><a href="">Shipping and Returns</a></li>
+                 <li><a href="">Help & FAQ</a></li>
+                 <li><a href="">Terms & Conditions</a></li>
+                 <li><a href="">Privacy Policy</a></li>
+                 <li><a href="">Contact</a></li>
+                </ul>
+             </div>
+           </div>
+   
+         </div>
+         <div class="footmid">
+           <div class="footicon">
+             <div class="fpayment ficon">
+               <img src="../assets/icon/foot/mastercard.png" alt="">
+               <img src="../assets/icon/foot/visa.png" alt="">
+               <img src="../assets/icon/foot/rupay.png" alt="">
+               <img src="../assets/icon/foot/upi.png" alt="">
+               <img src="../assets/icon/foot/paypal.png" alt="">
+             </div>
+             <div class="social ficon">
+               <img src="../assets/icon/foot/fb.png" alt="">
+               <img src="../assets/icon/foot/insta.png" alt="">
+               <img src="../assets/icon/foot/x.png" alt="">
+             </div>
+             <div class="ftop ficon">
+               <img src="../assets/icon/foot/top.png" alt="">
+             </div>
+           </div>
+         </div>
+         <div class="footbot">
+           <div class="dd">
+             <h1>Design and Developed By</h1>
+             <p><a href="https://rick825.github.io/Portfolio2022/home.html">The Sky</a></p>
+           </div>
+           <div class="copy">
+             <h4>&copy;Copyright 2024 99 Family Co.</h4>
+           </div>
+         </div>
+        </div>
+       </section>
+    <!--  end footer section  -->
+
+  <script src="./assets/script/script.js"></script>
+<script >
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+  </script>
+
+<script>
+  // Get the container element
+  var btnContainer = document.getElementById("navul");
+  
+  // Get all buttons with class="btn" inside the container
+  var btns = btnContainer.getElementsByClassName("navlink");
+  
+  // Loop through the buttons and add the active class to the current/clicked button
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      for (var j = 0; j < btns.length; j++) {
+        btns[j].classList.remove("active");
+      }
+  
+      // Add "active" class to the clicked button
+      this.classList.add("active");
+    });
+  }
+  
+  </script>
+  
+</body>
+</html>

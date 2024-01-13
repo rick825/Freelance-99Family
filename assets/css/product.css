@@ -1,0 +1,163 @@
+body{
+ overflow-y: scroll;
+}
+
+.prod-main{
+    margin-top: 12rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* top product main */
+.prod-main .top-prod-main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 2%;
+    margin-top: 1rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list li{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list span{
+    font-size: 1.8rem;
+    margin-left: 0.6rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list a{
+    color: rgb(44, 44, 44);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list a:hover{
+    text-decoration: underline;
+}
+
+/* end top product main */
+
+
+/* bot product main */
+.bot-prod-main{
+    width: 100%;
+    min-height: 60rem;
+    display: flex;
+    position: relative;
+    left:3%;
+}
+
+/* bot product left  main */
+.bot-prod-main .left-prod-main{
+    width: 50%;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+
+/* image gallery */
+.product-img .container {
+    position: relative;
+    width: 95%;
+  }
+  
+  /* Hide the images by default */
+  .product-img .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .product-img .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .product-img .prev,
+  .product-img .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .product-img .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .product-img .prev:hover,
+  .product-img .next:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Number text (1/3 etc) */
+  .product-img .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .product-img .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .product-img .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .product-img .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .product-img .demo {
+    opacity: 0.8;
+    transition: 0.2s ease;
+    height: 11rem;
+  }
+  
+  .product-img .active,
+  .product-img .demo:hover {
+    opacity: 1;
+  }
+/* end image gallery */
+
+/* end bot product left main */
+
+/* bot product right main */
+.right-prod-main{
+    width: 45%;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+/* end bot product right main */
