@@ -275,7 +275,14 @@
   }
 
   .product-img .column{
-   width: 25%;
+   width: 16.66%;
+   overflow: hidden;
+   margin-left: 0.003rem;
+  }
+
+  .product-img .column img{
+    width: 100%;
+    height: 5rem;
   }
 
   
