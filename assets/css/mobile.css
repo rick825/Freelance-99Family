@@ -268,14 +268,15 @@
   }
 
   .product-img .row{
+   width: 100%;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   /* justify-content: center; */
    align-items: center;
   }
 
   .product-img .column{
-   width: 16.66%;
+   width: 16.60%;
    overflow: hidden;
    margin-left: 0.003rem;
   }
