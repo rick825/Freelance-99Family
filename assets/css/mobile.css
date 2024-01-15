@@ -206,70 +206,7 @@
      }
      /* end offer section */
 
-     /* footer section */
-     .footer{
-        position: relative;
-        padding: 1.5rem 2rem;
-     }
-
-     .footer .foottop{
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .footer .footlogo{
-       align-items: center;
-     }
-
-     /* foot list */
-     .footer .foottop .footlist{
-        flex-direction: column;
-        margin-left: 1rem;
-     }
-     .footer .foottop .footlist .flist{
-     align-items: center;
-     text-align: center;
-     }
-
-     .footer .foottop .footlist .flist2{
-        margin-left: 0rem;
-        margin-top: 4rem;
-     }
-
-     
-     /* end foot list */
-     .footer .footmid{
-     margin-top: 2rem;
-     }
-
-     .footer .footmid .footicon{
-      flex-direction: column-reverse;
-      height: 100%;
-     }
-     
-
-     .footer .footmid .footicon .ficon{
-        margin-top: 2rem;
-     }
-
-     .footer .footmid .fpayment img{
-        margin-left: 1rem;
-     }
-
-     .footer .footbot{
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .footer .footbot .dd{
-        text-align: center;
-     }
-
-     .footer .footbot .copy{
-        margin-left: 0rem;
-        margin-top: 1rem;
-     }
-     /* end footer section */
+    
 
   /* category section */
   .cmain{
@@ -290,4 +227,122 @@
    height: 90%;
   }
   /* end category section  */
+
+
+  /* product section */
+  .bot-prod-main{
+   flex-direction: column;
+  }
+
+  .bot-prod-main .left-prod-main, .bot-prod-main .right-prod-main{
+   width: 100%;
+  }
+
+  .right-prod-main{
+   width: 100%;
+  }
+
+  .right-prod-main .prodinfo{
+   width: 100%;
+  }
+
+  .right-prod-main .prodinfo .prod-button .prod-but-top{
+   flex-direction: column;
+   /* align-items: baseline; */
+  }
+
+  .right-prod-main .prodinfo .prod-button .prod-but-top .prod-but-top-right{
+   margin-top: 2rem;
+  }
+
+  .right-prod-main .prodinfo .prod-button .prod-add,.right-prod-main .prodinfo .prod-button .prod-buy{
+   margin-left: -1rem;
+  }
+
+  .right-prod-main .prodinfo .prod-button .prod-buy{
+   margin-left: 2rem;
+  }
+
+  .bottom-prod-info  .product-left .prod-detail-cont .prod-detail-table{
+   width: 150%;
+  }
+
+  .product-img .row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .product-img .column{
+   width: 25%;
+  }
+
+  
+
+  /* end product section */
+   /* footer section */
+   .footer{
+      position: relative;
+      padding: 1.5rem 2rem;
+   }
+
+   .footer .foottop{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer .footlogo{
+     align-items: center;
+   }
+
+   /* foot list */
+   .footer .foottop .footlist{
+      flex-direction: column;
+      margin-left: 1rem;
+   }
+   .footer .foottop .footlist .flist{
+   align-items: center;
+   text-align: center;
+   }
+
+   .footer .foottop .footlist .flist2{
+      margin-left: 0rem;
+      margin-top: 4rem;
+   }
+
+   
+   /* end foot list */
+   .footer .footmid{
+   margin-top: 2rem;
+   }
+
+   .footer .footmid .footicon{
+    flex-direction: column-reverse;
+    height: 100%;
+   }
+   
+
+   .footer .footmid .footicon .ficon{
+      margin-top: 2rem;
+   }
+
+   .footer .footmid .fpayment img{
+      margin-left: 1rem;
+   }
+
+   .footer .footbot{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer .footbot .dd{
+      text-align: center;
+   }
+
+   .footer .footbot .copy{
+      margin-left: 0rem;
+      margin-top: 1rem;
+   }
+   /* end footer section */
     }

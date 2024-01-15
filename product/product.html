@@ -227,11 +227,130 @@
   </div>
    <div class="right-prod-main  botmain">
      <div class="prodinfo">
-        <div class="prodhead">
-
+        <div class="prod-head">
+           <h1>Product Title Here</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum doloremque tempore ducimus quibusdam distinctio. Quam et sunt cupiditate ipsa voluptatibus sit sequi quae distinctio?</p>
         </div>
+        <div class="prod-review">
+          <div class="star">
+            <h4>5</h4> 
+            <img src="../assets/icon/star.png" alt="">
+            <p>(24 Reviews)</p>
+          </div>
+        </div>
+        <div class="prod-price">
+          <h2>₹499.00 <span>₹999.00</span></h2>
+          <h3>55% Off</h3>
+        </div>
+       <!-- product button -->
+        <div class="prod-button">
+          <div class="prod-but-top">
+
+            <div class="prod-but-top-left">
+          <div class="prod-quantity">
+            <button onclick="decreaseQuantity()">-</button>
+            <input type="number" id="quantityInput" value="1" min="1" >
+            <button onclick="increaseQuantity()">+</button>
+          </div>
+         </div>
+
+         <div class="prod-but-top-right">
+          <div class="prod-add">
+             <button>+ Add To Cart</button>
+          </div>
+          <div class="prod-buy">
+             <button>Buy Now</button>
+          </div>
+         </div> 
+        </div>
+
+        <div class="prod-but-bot">
+          <div class="wishlist">
+            <a href="">
+              <img src="../assets/icon/wish.png" alt="">
+              <p>Add to WishList</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    <!-- end product button -->
+      <div class="availability">
+         <div class="available avilc">
+          <h2>Availability</h2>
+          <p>In Stock</p>
+         </div>
+         <div class="categories avilc">
+           <h2>Categories</h2>
+           <div class="catelist">
+            <p>Home & Accessories,</p>
+            <p>Lamp</p>
+           </div>
+         </div>
+         <div class="brand avilc">
+          <h2>Brand:</h2>
+          <p>Electro Home</p>
+         </div>
+      </div>
      </div>
    </div>   
+  </div>
+  <div class="bottom-prod-info">
+    <div class="bottom-left product-left">
+       <div class="bottom-top prod-detail-head">
+        <h2>Product Details</h2>
+       </div>
+       <div class="bottom-bot prod-detail-cont">
+          <div class="bottom-bot-head prod-detail-cont-head">
+            <h3>Product Title Here</h3>
+          </div>
+          <div class="prod-detail-table">
+            <table class="product_table">
+              <tbody>
+              <tr>
+                <th>Brand</th>
+                <td>Electro Home</td>
+              </tr>
+              <tr>
+                <th>Features</th>
+                <td>Ideal for displaying fresh flowers, dried bouquets, or as a decorative showpiece</td>
+              </tr>
+              <tr>
+                <th>Materials</th>
+                <td>Ceramic</td>
+              </tr>
+              <tr>
+                <th>Product Dimensions</th>
+                <td>25cm X 8cm</td>
+              </tr>
+              <tr>
+                <th>Item Weight</th>
+                <td>402g</td>
+              </tr>
+              <tr>
+                <th>Colour</th>
+                <td>Light Yellow</td>
+              </tr>
+              <tr>
+                <th>Country of Origin</th>
+                <td>China</td>
+              </tr>
+              <tr>
+                <th>Importer Name & Address</th>
+                <td>
+                  SNNR Pvt. Ltd.,<br>
+                  D-169, Okhla Industrial Area Phase - 1,<br>
+                  New Delhi - 110020
+                </td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+       </div>
+    </div>
+    <div class="bottom-right product-right">
+      
+    </div>
   </div>
   </div>
 </section>
@@ -244,7 +363,7 @@
            <div class="footm footlogo">
              
              <div class="ftext fl">
-               <h2>Get updates on fun stuff you probably want to know about in your inbox.</h2>
+               <h2>Get updates on fun stuff you probably want to know about in your inbox. </h2>
              </div>
              <div class="finput fl">
                <form action="#">
@@ -328,6 +447,7 @@
     <!--  end footer section  -->
 
   <script src="./assets/script/script.js"></script>
+ <!-- slide  -->
 <script >
     let slideIndex = 1;
 showSlides(slideIndex);
@@ -359,8 +479,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-  </script>
-
+</script>
+<!-- end main slide -->
 <script>
   // Get the container element
   var btnContainer = document.getElementById("navul");
@@ -379,8 +499,24 @@ function showSlides(n) {
       this.classList.add("active");
     });
   }
-  
+</script>
+
+  <!-- increaseQuantity -->
+  <script>
+    function increaseQuantity() {
+  var quantityInput = document.getElementById('quantityInput');
+  quantityInput.value = parseInt(quantityInput.value) + 1;
+}
+
+function decreaseQuantity() {
+  var quantityInput = document.getElementById('quantityInput');
+  var currentValue = parseInt(quantityInput.value);
+  if (currentValue > 1) {
+    quantityInput.value = currentValue - 1;
+  }
+}
   </script>
+  <!-- end increaseQuantity -->
   
 </body>
 </html>

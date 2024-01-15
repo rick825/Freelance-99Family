@@ -5,3 +5,5 @@
 🔅COMMIT 12 JAN 2024 - Category Section, Mobile Version 
 
 🔅COMMIT 13 JAN 2024 - Product Info Page - Product Image
+
+🔅COMMIT 15 JAN 2024 - Product Info Page - All Done, Mobile Version

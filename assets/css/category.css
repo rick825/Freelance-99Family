@@ -18,7 +18,7 @@ body{
     /* justify-content: center; */
     align-items: center;
     padding: 1rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .cmainhead{
@@ -212,18 +212,20 @@ body{
     font-size: 1.5rem;
 }
 
-.cmainp .pro-desc-head .product-title-price .prod-price h3{
+
+.cmain .prod-price .prod-price h3{
     color: #d6a719;
     margin-top: 0.2rem;
 }
 
-.cmainp .pro-desc-head .product-title-price h2{
+.cmain .prod-price h2{
     font-size: 1.4rem;
     margin-top: 0.4rem;
     letter-spacing: 1px;
 }
 
-.cmainp .pro-desc-head .product-title-price h2 span{
+
+.cmain .prod-price h2 span{
     text-decoration: line-through;
     color: #555;
     font-size: 1.1rem;
@@ -234,13 +236,17 @@ body{
     color: #434242;
 }
 
+.cmain .prod-price h3{
+    color: #d3ac0e;
+}
+
 .cmainp .pro-desc-head .product-desc .desc{
     font-size: 1.4rem;
 }
 
 
 
-.cmainp .pro-desc-head .product-desc .star{
+.cmain .star{
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
@@ -248,13 +254,13 @@ body{
     margin-left: 0.2rem;
 }
 
-.cmainp .pro-desc-head .product-desc .star img{
+.cmain .star img{
     width: 12px;
     margin-left: 1px;
 }
 
 
-.cmainp .pro-desc-head .product-desc .star p{
+.cmain .star p{
     margin-left: 0.4rem;
 }
 
