@@ -14,13 +14,6 @@ function scrollFunction() {
   }
 }
 
-function scrollToPopCat(){
-  console.log("Scrolling");
-  window.scrollTo({
-    top: 350,
-    behavior: "smooth" // You can change this to "auto" for instant scrolling
-  });
-}
 
 
 const navshow = () =>{

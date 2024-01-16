@@ -1,0 +1,34 @@
+body{
+    /* overflow-y: scroll; */
+   }
+   
+   .cate-main{
+     height: 100%;
+       margin-top: 12rem;
+       /* overflow: scroll; */
+       overflow-x: hidden;
+   }
+
+   .cate-main-cont{
+    width: 100%;
+    height: 21rem;
+    padding: 1rem;
+   }
+
+   .cate-main-cont .catem{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+   }
+
+   .cate-main-cont .catem .cate{
+    width: 20rem;
+    height: 18rem;
+    padding: 2rem;
+    border: 2px solid black;
+    margin-left: 1rem;
+    border-radius: 15px;
+   }
+
+
+   

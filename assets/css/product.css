@@ -138,6 +138,11 @@ body{
   .product-img .column {
     float: left;
     width: 16.66%;
+    overflow: hidden;
+  }
+
+  .product-img .column  img{
+    width: 100%;
   }
   
   /* Add a transparency effect for thumnbail images */
