@@ -11,23 +11,96 @@ body{
 
    .cate-main-cont{
     width: 100%;
-    height: 21rem;
+    min-height: 19rem;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
 
-   .cate-main-cont .catem{
+   .cate-main-cont .cate-m{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
     margin-top: 2rem;
    }
 
-   .cate-main-cont .catem .cate{
-    width: 20rem;
+   .cate-main-cont .cate-m .categ{
+    width: 16rem;
+    height: 16rem;
+    /* border: 2px solid black; */
+    margin-left: 2.5rem;
+    margin-top: 1.2rem;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   }
+
+   .cate-main-cont .cate-m .categ:hover{
+    transform: translateY(-4px) scale(1.02);
+   }
+
+   .cate-main-cont .cate-m .categ:hover .cate-text{
+    margin-top: 0;
+    height: 100%;
+   }
+
+   .cate-main-cont .cate-m .categ .cate-img{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    /* border: 2px solid black; */
+    /* border-radius: 60px; */
+   }
+
+   .cate-main-cont .cate-m .categ .cate-img:before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: black;
+    opacity: 0.25;
+    z-index: 1;
+   }
+
+   .cate-main-cont .cate-m .categ .cate-img img{
+    width: 100%;
     height: 18rem;
-    padding: 2rem;
-    border: 2px solid black;
-    margin-left: 1rem;
-    border-radius: 15px;
+    object-fit: cover;
+   }
+
+   .cate-main-cont .cate-m .categ .cate-text{
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0rem 1.6rem;
+    margin-top: -0.5rem;
+    position: relative;
+    z-index: 10000;
+    color: white;
+    margin-top: 11rem;
+    transition: 0.6s ease;
+   }
+
+   .cate-main-cont .cate-m .categ .cate-text{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
    }
 
 

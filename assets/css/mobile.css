@@ -289,6 +289,56 @@
   
 
   /* end product section */
+  .cate-main-cont .cate-m{
+   justify-content: center;
+  }
+
+  .cate-main-cont .cate-m .categ{
+   margin-left: 2rem;
+  }
+  /* all categories */
+
+/* end all categories */
+  /* category section */
+  /* category 1 section */
+  .catem{
+   margin-top: 7rem;
+  }
+
+  .catem .catemaincont .catemaincontsec{
+   padding: 1rem 0rem;
+  }
+
+.catem .catemaincont .catemaincontsec .catemain{
+   width: 100%;
+   margin-left: 0rem;
+}
+
+.catem .catemaincont .catemaincontsec .catemain:nth-child(1){
+   margin-top: 0rem;
+}
+
+.catem .catemaincont .catemaincontsec .catemain:nth-child(1) .catemh{
+   margin: 0rem 2rem;
+}
+  /* end category 1 section */
+  /* category 2 section / deal of the day section*/
+  .dealm .dealmaincontsec{
+   margin-top: 1rem;
+  }
+
+  .dealm .dealmaincont .dealmaincontsec .dealmain:nth-child(1){
+   margin-top: 1rem;
+  }
+
+  .dealm .dealmaincont .dealmaincontsec .dealmain{
+   height: 26rem;
+   margin-top: 4rem;
+   margin-left: 0;
+  }
+  /* end category 2 section */
+/* end category section */
+
    /* footer section */
    .footer{
       position: relative;

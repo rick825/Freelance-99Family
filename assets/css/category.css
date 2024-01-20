@@ -62,7 +62,7 @@ body{
     padding: 1rem 12rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
 }
 
@@ -72,8 +72,15 @@ body{
     margin-left: 10rem;
 }
 
+
+
 .catem .catemaincont .catemaincontsec .catemain .catemh{
    margin: 1rem 2rem;
+}
+
+.catem .catemaincont .catemaincontsec .catemain .catemh a{
+    color: rgb(50, 49, 49);
+    font-weight: 600;
 }
 
 .catem .catemaincont .catemaincontsec .catemain .catemc{
@@ -91,15 +98,19 @@ body{
 
 .catem .catemaincont .catemaincontsec .catemain .catemc .cp{
     position: relative;
-    width: 10rem;
-    height: 10rem;
-    border: 2px solid rgb(97, 96, 96);
+    width: 10.5rem;
+    height: 10.5rem;
+    /* border: 2px solid rgb(97, 96, 96); */
     margin-left: 1rem;
     margin-top: 1rem;
     border-radius: 10px;
     padding: 1rem;
     overflow: hidden;
     transition: 0.2s ease;
+}
+
+.catem .catemaincont .catemaincontsec .catemain .cp:hover{
+    transform: translateY(-4px) scale(1.02);
 }
 
 .catem .catemaincont .catemaincontsec .catemain .catemc .cp::before{
@@ -132,19 +143,22 @@ body{
 
 
   .catem .catemaincont .catemaincontsec .catemain .catemc .cp .cp-text{
-    width: 80%;
+    width: 100%;
     height: 100%;
     position: absolute;
-    /* top: 65%; */
-    left:20%;
+    top: 0%;
+    left:0%;
+    right:0;
     z-index: 10000;
     color: white;
     padding: 1.5rem 1rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
-    transform: translatey(50%);
-    transition: 0.2s ease;
+    align-items: center;
+    transform: translatey(60%);
+    transition: 0.4s ease;
+    text-align: center;
   }
 
   .catem .catemaincont .catemaincontsec .catemain .catemc .cp h2{
@@ -152,7 +166,10 @@ body{
     font-size: 1rem;
     letter-spacing: 0.20rem;
     position: relative;
+    display: flex;
+   justify-content: center;
     z-index: 10000; 
+    /* border: 2px solid black; */
   }
 
   .catem .catemaincont .catemaincontsec .catemain .catemc .cp:hover:before{
@@ -388,4 +405,138 @@ body{
 /* end cmaincont */
 /* end  sub categories */
 
+/* deal of the day / category-2 */
+.dealm .dealmaincont{
+    width: 100%;
+}
+
+.dealm .dealmaincontsec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.dealm .dealmaincont .dealmaincontsec .dealmain{
+    width: 55rem;
+    height: 35rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left:1.8rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.dealm .dealmaincont .dealmaincontsec .dealmain:before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 100;
+  transition: 0.4s ease;
+}
+
+/* style from main page deal of the day / 2nd category */
+
+/* end deal of the day / end category-2*/
+/* top main section */
+
+
+  .topm .topmaincont{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+  }
+
+  .topm .topmaincontsec{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+  }
+  
+  .topm .topoffer{
+    width: 30rem;
+    min-height: 18rem;
+     position: relative;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+  .topm .topoffer .to-img img{
+    width: 100%;
+    height: 20rem;
+  }
+  
+  .topm .topoffer img{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.4s ease;
+  }
+  
+  .topm .topoffer img:hover{
+     transform: scale(1.04);
+  }
+  
+  .topm .topoffer img:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 100;
+    transition: 0.4s ease;
+  }
+  
+  .topm .pro-desc-head{
+    margin-top: 1rem;
+    display: flex;
+    /* align-items: end; */
+    justify-content: space-between;
+  }
+  
+  .topm .pro-desc .prodtextbut a{
+     color: rgb(23, 22, 22);
+     font-size: 1.25rem;
+     font-weight: 600;
+  }
+  
+  .topm .pro-desc .prodtextbut span{
+    border-bottom-color: black;
+  }
+  
+  .topm .pro-desc .prodtextbutimg{
+    display: flex;
+    align-items: center;
+    margin-top: -0.5rem;
+  }
+  
+  .topm .pro-desc .prodtextbutimg img{
+    width: 20px;
+    margin-left: 0.5rem;
+  }
+/* end top main section */
 /* end main section */
+
+

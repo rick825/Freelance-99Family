@@ -9,3 +9,5 @@
 🔅COMMIT 15 JAN 2024 - Product Info Page - All Done, Mobile Version
 
 🔅COMMIT 16 JAN 2024 - Added All Categories Page, Category and Sub Category - Half Done.
+
+🔅COMMIT 20 JAN 2024 - ✔Completed All Categories, Category, Category-2, Category-3 and Sub Category.
