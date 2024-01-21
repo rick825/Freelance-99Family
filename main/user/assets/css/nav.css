@@ -1,24 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-}
-
-html{
- font-size: 10px;
- font-family: 'Jura', sans-serif;
- scroll-behavior: smooth;
-}
-
-body{
-	width: 100%;
-	height: 100%;
-    background-color: #fff9f9;
-    overflow-x: hidden;
-}
 
 /* common */
 .mainhead{
@@ -29,6 +8,8 @@ body{
     margin: 2.5rem 0rem;
     letter-spacing: 1px;
 }
+
+
 
 /*color*/
 .ccolor{
@@ -45,19 +26,7 @@ body{
 }*/
 
 /*hero section	*/
-#hero{
-  width: 100%;
-  height: 100%;
-	
-}
 
-.hero{
-	width: 100%;
-	height: 100%;
-  position: relative;
-  /*margin-top: 10rem;*/
- 
-}
 
 .ham{
   display: none;
@@ -74,11 +43,12 @@ body{
 #nav{
   width: 100%;
   /*height: 100%;*/
-	position: relative;
+	/* position: relative; */
 }
 
 .nav{
-  position: relative;
+  position: fixed;
+  top:0;
   width: 100%;
   /*background-color: #222;*/
   display: flex;
@@ -115,14 +85,15 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 1rem;
-transition: 0.2s ease;
+transition: 0.5s ease;
 background-color:#f0ecec ;
 }
 
 .navtophide{
-  transform: translateY(-100rem);
+  transform: translateY(-5rem);
   opacity: 0;
-  display: none;
+  position: absolute;
+  /* display: none; */
 }
 
 .navtop .navcont{
@@ -183,6 +154,7 @@ margin-left: 1rem;
   /*flex-direction: column;*/
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .navlogo{
@@ -388,7 +360,7 @@ margin-left: 1rem;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     z-index: 10;
 }
 
@@ -451,16 +423,16 @@ margin-left: 1rem;
 
 /* dropdown */
 .shopbycat ul {
-    background-color: white;
+    /* background-color: white; */
      visibility: hidden;
      transform: translateY(-5rem);
-     width: 5rem;
+     width: 10rem;
      display: flex;
      flex-direction: column;
      position: absolute;
      transition:  0.5s ease;
      margin-top: 1rem;
-     left: 20rem;
+     left: 18rem;
    /*  display: none;*/
      padding: 2rem;
      z-index: -1;
@@ -479,7 +451,7 @@ margin-left: 1rem;
    }
    
    .dropdown .dropm{
-     width: 23.5rem;
+     width: 25.5rem;
      border-right: 2px solid #dea81e;
    }
    

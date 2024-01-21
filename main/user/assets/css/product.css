@@ -1,0 +1,464 @@
+body{
+ overflow-y: scroll;
+}
+
+.prod-main{
+  height: 100%;
+    margin-top: 12rem;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+}
+
+/* top product main */
+.prod-main .top-prod-main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 2%;
+    margin-top: 1rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list li{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list span{
+    font-size: 1.8rem;
+    margin-left: 0.6rem;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list a{
+    color: rgb(44, 44, 44);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.prod-main .top-prod-main .mininav .mininav-list a:hover{
+    text-decoration: underline;
+}
+
+/* end top product main */
+
+
+/* bot product main */
+.bot-prod-main{
+    width: 100%;
+    min-height: 60rem;
+    display: flex;
+    position: relative;
+    left:3%;
+}
+
+/* bot product left  main */
+.bot-prod-main .left-prod-main{
+    width: 50%;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+
+/* image gallery */
+.product-img .container {
+    position: relative;
+    width: 95%;
+  }
+  
+  /* Hide the images by default */
+  .product-img .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .product-img .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .product-img .prev,
+  .product-img .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .product-img .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .product-img .prev:hover,
+  .product-img .next:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Number text (1/3 etc) */
+  .product-img .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .product-img .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .product-img .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .product-img .column {
+    float: left;
+    width: 16.66%;
+    overflow: hidden;
+  }
+
+  .product-img .column  img{
+    width: 100%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .product-img .demo {
+    opacity: 0.8;
+    transition: 0.2s ease;
+    height: 11rem;
+  }
+  
+  .product-img .active,
+  .product-img .demo:hover {
+    opacity: 1;
+  }
+/* end image gallery */
+
+/* end bot product left main */
+
+/* bot product right main */
+.right-prod-main{
+    width: 45%;
+    /* border: 2px solid black; */
+    margin-top: 0.4rem;
+}
+
+.right-prod-main .prodinfo{
+  width: 80%;
+  padding: 0rem 1rem;
+}
+
+.right-prod-main .prodinfo .prod-head h1{
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.right-prod-main .prodinfo .prod-head p{
+  margin-top: 0.6rem;
+  font-size: 1.5rem;
+  font-size: 800;
+  color: #636161;
+  letter-spacing: 0.5px;
+}
+
+.right-prod-main .prodinfo .prod-review{
+  margin-top: 1rem;
+}
+
+.right-prod-main .prodinfo .prod-review .star{
+  font-size: 1.3rem;
+}
+
+.right-prod-main .prodinfo .prod-review .star h4{
+  color: #2e2e2e;
+}
+
+.right-prod-main .prodinfo .prod-review .star img{
+  width: 16px;
+}
+
+.right-prod-main .prodinfo .prod-review .star p{
+  font-weight: 600;
+  color: #313030;
+  letter-spacing: 0.5px;
+}
+
+.right-prod-main .prodinfo .prod-price h2{
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  color: #262626;
+}
+
+.right-prod-main .prodinfo .prod-price h2 span{
+  font-size: 1.7rem;
+  margin-left: 0.2rem;
+}
+
+
+.right-prod-main .prodinfo .prod-price h3{
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+/* product button */
+
+.right-prod-main .prodinfo .prod-button{
+  width: 100%;
+  margin-top: 2rem;
+  /* padding: 1rem; */
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgba(77, 76, 76, 0.107);
+  border-bottom: 2px solid rgba(77, 76, 76, 0.107);
+  padding: 2rem 0rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-top{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-top .prod-but-top-right{
+  display: flex;
+  align-items: center;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-quantity{
+  width: 100%;
+  font-size: 1.7rem;
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+.right-prod-main .prodinfo .prod-button .prod-quantity input{
+  /* margin: 0rem 0.5rem; */
+  /* width:100%; */
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  text-align: center;
+  appearance:none;
+  padding: 0.5rem 0rem;
+  -moz-appearance: textfield;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-quantity input::-webkit-outer-spin-button,
+.right-prod-main .prodinfo .prod-button .prod-quantity input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-quantity button{
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+
+.right-prod-main .prodinfo .prod-button .prod-add,.right-prod-main .prodinfo .prod-button .prod-buy{
+ margin-left: 2rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-add{
+  margin-left: 3rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-add button,.right-prod-main .prodinfo .prod-button .prod-buy button{
+  padding: 1.2rem 4rem;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-add button{
+  background-color: #222;
+  color: white;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-buy button{
+  background-color: #d3ac0e;
+  font-weight: 500;
+}
+
+.right-prod-main .prodinfo .prod-button button{
+  transition: 0.2s ease;
+}
+
+.right-prod-main .prodinfo .prod-button button:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-bot{
+  margin-top: 2rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-bot .wishlist a{
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 0.2rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-bot .wishlist a img{
+  width: 18px;
+  margin-top: 0.1rem;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-bot .wishlist a p{
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  transition: 0.5s ease;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #330873;
+}
+
+.right-prod-main .prodinfo .prod-button .prod-but-bot .wishlist a p:hover{
+  text-decoration: underline;
+}
+
+/* end product button */
+
+/* availability */
+
+.right-prod-main .prodinfo .availability .available{
+  display: flex;
+  align-items: center;
+}
+
+.right-prod-main .prodinfo .avilc h2{
+  font-size: 1.8rem;
+}
+
+.right-prod-main .prodinfo .availability .available p{
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  color: #d3ac0e;
+}
+
+.right-prod-main .prodinfo .availability .avilc{
+  margin-top: 1.5rem;
+}
+
+
+
+.right-prod-main .prodinfo .availability .categories .catelist{
+  display: flex;
+  align-items: center;
+}
+
+.right-prod-main .prodinfo .availability  p{
+  margin-top: 0.8rem;
+  color: rgb(64, 6, 240);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+
+/* end  availability */
+/* end bot product right main */
+
+/* bottom product info */
+.bottom-prod-info{
+  width: 100%;
+  min-height: 40rem;
+  position: relative;
+  margin-top: 3rem;
+  border-bottom: 2px solid rgba(77, 76, 76, 0.107);
+  padding: 2rem 6rem;
+  display: flex;
+  /* align-items: center; */
+}
+
+.bottom-prod-info  .product-left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-prod-info  .product-left .prod-detail-head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(77, 76, 76, 0.107);
+}
+
+
+.bottom-prod-info  .product-left .prod-detail-cont{
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-prod-info  .product-left .prod-detail-cont  .prod-detail-cont-head{
+  font-size: 1.2rem;
+}
+
+/* table */
+.bottom-prod-info  .product-left .prod-detail-cont .prod-detail-table{
+  width: 50%;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.prod-detail-table table th,
+.prod-detail-table table td{
+  padding: 10px;
+  text-align: left;
+}
+
+.prod-detail-table table th{
+  background-color: #d3ab0ebc;
+}
+
+.prod-detail-table table td{
+  background-color: rgba(255, 255, 255, 0.325);
+}
+
+
+
+/* end table */
+/* end bottom product info */
