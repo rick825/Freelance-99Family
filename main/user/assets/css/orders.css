@@ -1,0 +1,402 @@
+#orders{
+    width: 100%;
+}
+
+.orders{
+    width: 100%;
+    height: 80rem;
+    margin-top: 18rem;
+    position: relative;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 4rem 8rem;
+}
+
+
+.orders .order-left,.orders .order-right{
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+/* order left section */
+.orders .order-left{
+width: 25%;
+}
+
+.orders .order-left .order-left-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.order-left-cont .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order-left-cont .menu .menutop{
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.order-left-cont .menu .menunav{
+    margin-top: 3rem;
+    list-style: none;
+    text-align: center;
+}
+
+.order-left-cont .menu .menunav li{
+    margin-top: 3.2rem;
+}
+
+.order-left-cont .menu .menunav a{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+.order-left-cont .menu .menunav img{
+    width: 25px;
+}
+
+.order-left-cont .menu .menunav a span{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    transition: 0.1s ease;
+}
+
+.order-left-cont .menu .menunav a span:hover{
+    color: #dbab0c;
+}
+/* end order left section */
+
+/* order right section */
+
+.orders .order-right{
+    width: 75%;
+    overflow: hidden;
+  }
+
+
+.orders .order-right .order-right-cont{
+    display: flex;
+    overflow: hidden;
+    /* justify-content: center; */
+}  
+
+.order-right-cont .order-main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.order-right-cont .order-main .order-head{
+    text-align: left;
+    margin-top: 2rem;
+}
+
+
+.order-right-cont .order-main .order-main-cont{
+    width: 100%;
+    height: 60rem;
+    overflow-y: scroll;
+    /* border: 2px solid black; */
+    padding: 1rem 5rem;
+    padding-left: 0rem;
+    margin-top: 1rem;
+}
+
+
+ .order-main-cont::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+ .order-main-cont::-webkit-scrollbar
+ {
+     width: 12px;
+     background-color: #F5F5F5;
+ }
+ 
+ .order-main-cont::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #555;
+ }
+
+.order-main .order-main-cont .order-main-list{
+    width: 100%;
+    height: 30%;
+}
+
+
+.order-right-cont .order-main .order-main-cont .o-main{
+    width: 75rem;
+    height: 40rem;
+    border: 0.2px solid rgba(0, 0, 0, 0.186);
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.order-right-cont .order-main .order-main-cont .o-main:nth-child(1){
+    margin-top: 1rem;
+}
+
+
+
+/* main order section */
+.o-main{
+    display: flex;
+    flex-direction: column;
+     overflow: hidden;
+}
+
+.omc{
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.omc .oml,.omc .omr{
+    width: 50%;
+   /* border: 2px solid black;  */
+}
+
+.omc span{
+    /* color: black; */
+    color: #282828;
+    letter-spacing: 0.5px;
+}
+
+.omlbot{
+    margin-top: 1rem;
+}
+
+/* omain top */
+.omain-top{
+    height: 22%;
+    /* align-items: center; */
+}
+
+.order-date h2{
+    color: black;
+}
+
+.order-number{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.order-number h4{
+    color: #343333;
+}
+
+.order-for-name{
+    text-align: right;
+}
+/* end omain top */
+
+/* omain mid*/
+.omain-mid .oml{
+ width: 75%;
+}
+
+ 
+.omain-mid .omltop{
+ display: flex;
+ align-items: flex-start;
+}
+
+.omain-mid .order-image{
+    width: 40rem;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.omain-mid .order-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.omain-mid .order-text{
+    margin-left: 1rem;
+}
+
+.omain-mid .order-text h2{
+    font-size: 2rem;
+}
+
+.omain-mid .order-text a{
+    color: black;
+}
+
+.omain-mid .order-text p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #282828;
+}
+
+.omain-mid .order-text p span{
+    padding: 0.5rem;
+    color: #131212e5;
+}
+
+.omain-mid .omr{
+    width: 25%;
+    margin-left: 6rem;
+}
+
+.order-address{
+    margin-top: 0.2rem;
+}
+
+
+.order-address p{
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #424242;
+}
+
+.order-address p:nth-child(2){
+    margin-top: 1.3rem;
+}
+
+/* end omain mid*/
+
+/* omain bot */
+.omain-bot{
+    height: 20%;
+    /* border: 2px solid black; */
+}
+
+.order-button{
+    text-align: right;
+}
+
+.order-button .btn{
+ padding: 1rem;
+ color: black;
+ font-size: 1.1rem;
+ font-weight: 800;
+ /* border-radius: 10px; */
+ border:1px solid  #dea81e;
+ color:#1b0b01;
+}
+
+.order-button .helpbtn{
+    margin-left: 2rem;
+}
+
+
+
+
+/* end omain bot */
+
+/* end main order section */
+
+
+/* end order right section */
+
+
+/* mobile section */
+@media only screen and (max-width: 650px){
+    .orders{
+        height:70rem;
+        flex-direction: column;
+        margin-top: 5rem;
+        padding: 2rem;
+    }
+
+    .orders .order-left{
+        display: none;
+        width: 0;
+    }
+
+    .orders .order-right{
+        width: 100%;
+        /* overflow: visible; */
+    }
+
+    .order-right-cont .order-main .order-main-cont{
+        padding: 1rem 1rem;
+    }
+
+    .orders .order-right .order-right-cont{
+        overflow: visible;
+    }
+
+    .order-right-cont .order-main .order-main-cont .o-main{
+       width: 30rem;
+       height: 50rem;
+    }
+
+    .omain-top{
+        height: 16%;
+    }
+
+    .order-date{
+        font-size: 0.9rem;
+    }
+
+    .order-number{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .order-for-name{
+        width: 98%;
+        font-size: 0.9rem;
+        text-align: left;
+        margin-left: 2.2rem;
+    }
+
+    .order-for-name h2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .omain-mid .order-text h2{
+        font-size: 1.8rem;
+    }
+
+    .omain-mid,.omain-bot{
+        flex-direction: column;
+    }
+
+    .omain-mid .oml,.omain-mid .omr{
+        width: 100%;
+    }
+
+    .omain-mid .omr{
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .omain-mid  .order-text{
+        text-align: left;
+    }
+
+    .omain-mid .order-address{
+        margin-left: 10rem;
+    }
+
+    .order-button{
+        margin-top: 7rem;
+        text-align: center;
+    }
+
+    .omain-bot .omr{
+        width: 100%;
+    }
+}

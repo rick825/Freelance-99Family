@@ -351,13 +351,14 @@
    }
 
    .footer .footlogo{
+      margin-left: -1rem;
      align-items: center;
    }
 
    /* foot list */
    .footer .foottop .footlist{
       flex-direction: column;
-      margin-left: 1rem;
+      margin-left: -1rem;
    }
    .footer .foottop .footlist .flist{
    align-items: center;
