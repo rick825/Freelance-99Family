@@ -15,3 +15,5 @@
 🔅COMMIT 21 JAN 2024 - ✔User Section : Home , Account Mobile Version done.
 
 🔅COMMIT 24 JAN 2024 - ✔User Section : Orders , Mobile Version done.
+
+🔅COMMIT 26 JAN 2024 - ✔Updates refer updates.md. 
