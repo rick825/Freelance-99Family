@@ -172,18 +172,31 @@ margin-left: 1rem;
 }
 
 .navlogo h2{
+  position: relative;
   font-size: 2.5rem;
   color: #d6a719;
   /* float: right; */
   letter-spacing: 1.5px;
   margin-left: 0.5rem;
+  padding-bottom: 2px;
+  border-bottom: 1.8px solid rgb(93,64,110);
 /* font-family: 'Jura', sans-serif; */
+}
+
+.navlogo h2:before{
+ content: 'We are the family';
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top:100%;
+ font-size: 0.9rem;
+ color: rgb(93,64,110);
+ margin-top: 2%;
 }
 
 
 .navlogo span{
-    color: #920e0ef4;
-  border-bottom: 1.9px solid #5d0707f4;
+    color: rgb(93,64,110);  
 }
 
 .navlist{
@@ -418,6 +431,10 @@ margin-left: 1rem;
 .navbot .shopbycat .arrow{
     margin-left: 3.5rem;
    
+}
+
+.navsocialbot{
+  display: none;
 }
 
 
