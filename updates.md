@@ -1,5 +1,16 @@
 ✔Below are the latest updates
 
+🔅Update - 28 Jan 2024
+💨01. Updated File - All HTML Files & all css files.
+      * Updated Font - primary and secondary.
+      ✔ Todo - replace all HTML Files and css files with new ones.
+
+💨02. Added File - cart.html(./user/foruser/cart.html) & cart.css(./assets/css/cart.css)
+      * Added add-to-cart page.
+      ✔ Todo - add files to your project workspace.
+
+📢Note: The above changes will be reflected only after you replace the respective files
+
 🔅Update - 25 Jan 2024
 💨01. Updated file - nav.css (./assets/css/nav.css)
       * Updated logo as asked by Client.
@@ -16,4 +27,3 @@
               
 📢Note: The above changes will be reflected only after you replace the respective files
     
-      

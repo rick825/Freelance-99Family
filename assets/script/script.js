@@ -29,3 +29,20 @@ const navshow = () =>{
 
 
 navshow();
+
+
+const addressshow = () =>{
+  const changebutton  = document.querySelector('.change-deliver-to');
+  const addressbox = document.querySelector('.address-model');
+  const cross = document.querySelector('.cross');
+
+  changebutton.addEventListener('click',()=>{
+    addressbox.classList.add('address-model-show');
+  })
+
+  cross.addEventListener('click',()=>{
+    addressbox.classList.remove('address-model-show');
+  })
+}
+
+addressshow();

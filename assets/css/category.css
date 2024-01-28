@@ -26,9 +26,11 @@ body{
  text-align: center;
  position: relative;
  font-size: 2.2rem;
- letter-spacing: 1px;
+ letter-spacing: 0.2px;
  margin-top: 1rem;
+ font-family: Bebas neue bold;
 }
+
 
 .cmainhead h3{
     font-size: 1.4rem;

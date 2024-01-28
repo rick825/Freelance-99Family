@@ -16,4 +16,6 @@
 
 🔅COMMIT 24 JAN 2024 - ✔User Section : Orders , Mobile Version done.
 
-🔅COMMIT 26 JAN 2024 - ✔Updates refer updates.md. 
+🔅COMMIT 26 JAN 2024 - ✔Updates refer updates.md.
+
+🔅COMMIT 28 JAN 2024 - ✔Cart Section: Checkout, Mobile version,  ✔Updates refer updates.md.

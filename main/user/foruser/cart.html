@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cart</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
     <link rel="stylesheet" href="../assets/css/mobile.css">
 </head>
@@ -134,6 +135,12 @@
                   <li class="navitem homeacc"><a href="./wish.html" class="navlink">Wishlist</a></li>
                   <li class="navitem"><a href="#Logout" class="navlink">Logout</a></li>
                 </ul>
+                <ul class="navsocialbot ">
+                  <h2>Follow Us→</h2>
+                  <li class="navitem"><a href=""> <img src="./assets/icon/foot/fb.png" alt=""></a></li>
+                  <li class="navitem" ><a href=""> <img src="./assets/icon/foot/insta.png" alt=""></a></li>
+                  <li class="navitem"><a href=""> <img src="./assets/icon/foot/x.png" alt=""></a></li>
+                </ul>
              </div>
 
 
@@ -141,6 +148,291 @@
     </div>
   </section>
   <!-- end  nav section  -->
+
+  <!-- cart main -->
+  <section id="cartmain">
+    <div class="cartmain ">
+      <div class="cart-left">
+
+        <div class="cart-left-cont">
+          <div class="menu">
+            <div class="menutop">
+               <h2>Menu</h2>
+            </div>
+            <div class="menulist">
+              <ul class="menunav">
+                <li><a href=""><img src="../assets/icon/acc.png" alt=""> <span>My Account</span></a></li>
+                <li><a href=""><img src="../assets/icon/orders.png" alt=""> <span>My Orders</span></a></li>
+                <li><a href=""><img src="../assets/icon/wish.png" alt=""> <span>My Wishlist</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div class="cart-right">
+         <div class="cart-right-cont">
+
+          <div class="cart-main">
+             <div class="cart-head">
+               <h2>My Cart ↓</h2>
+             </div>
+            <div class="cart-main-cont scroll">
+              <div class="cart-main-list">
+                <!-- cart producct main -->
+                <div class="cart-product cart-product1">
+                   <div class="cart-product-top">
+                    <div class="pro-image">
+                      <img src="../assets/img/products/cup.jpg" alt="">
+                    </div>
+                    <div class="pro-cont">
+                      <a href="" class="pro-title"><h2>Product Title Here</h2></a>
+                      <p class="pro-price">Price: <span class="discounted-price">₹ 999.00/-</span> <span class="main-price">₹1499.00/-</span></p>    
+                      <div class="prod-num">
+                        <div class="pro-size">
+                          <p>Size: <span>All Size</span></p>
+                      </div>
+                      <div class="pro-quantity">
+                        <p>Quantity:</p>
+                        <div class="prod-quantity">
+                          <button onclick="decreaseQuantity()">-</button>
+                          <input type="number" id="quantityInput" value="1" min="1" >
+                          <button onclick="increaseQuantity()">+</button>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="cart-product-bot">
+                    <div class="pro-button">
+                      <a href="#" class="movetowishList"><img src="../assets/icon/wish.png" alt=""><span>Move To Wishlist</span></a>
+                      <a href="#" class="remove"><span>Remove</span></a>
+                    </div>
+                   </div>
+                </div>
+                <!-- end cart product main -->
+                <div class="cart-product cart-product1">
+                  <div class="cart-product-top">
+                   <div class="pro-image">
+                     <img src="../assets/img/products/jacket.jpg" alt="">
+                   </div>
+                   <div class="pro-cont">
+                     <a href="" class="pro-title"><h2>Product Title Here</h2></a>
+                     <p class="pro-price">Price: <span class="discounted-price">₹ 999.00/-</span> <span class="main-price">₹1499.00/-</span></p>    
+                     <div class="prod-num">
+                       <div class="pro-size">
+                         <p>Size: <span>L</span></p>
+                     </div>
+                     <div class="pro-quantity">
+                       <p>Quantity:</p>
+                       <div class="prod-quantity">
+                         <button onclick="decreaseQuantity()">-</button>
+                         <input type="number" id="quantityInput" value="1" min="1" >
+                         <button onclick="increaseQuantity()">+</button>
+                       </div>
+                     </div>
+                     </div>
+                   </div>
+                  </div>
+                  <div class="cart-product-bot">
+                   <div class="pro-button">
+                     <a href="#" class="movetowishList"><img src="../assets/icon/wish.png" alt=""><span>Move To Wishlist</span></a>
+                     <a href="#" class="remove"><span>Remove</span></a>
+                   </div>
+                  </div>
+               </div>
+               <div class="cart-product cart-product1">
+                <div class="cart-product-top">
+                 <div class="pro-image">
+                   <img src="../assets/img/products/cup.jpg" alt="">
+                 </div>
+                 <div class="pro-cont">
+                   <a href="" class="pro-title"><h2>Product Title Here</h2></a>
+                   <p class="pro-price">Price: <span class="discounted-price">₹ 999.00/-</span> <span class="main-price">₹1499.00/-</span></p>    
+                   <div class="prod-num">
+                     <div class="pro-size">
+                       <p>Size: <span>S</span></p>
+                   </div>
+                   <div class="pro-quantity">
+                     <p>Quantity:</p>
+                     <div class="prod-quantity">
+                       <button onclick="decreaseQuantity()">-</button>
+                       <input type="number" id="quantityInput" value="1" min="1" >
+                       <button onclick="increaseQuantity()">+</button>
+                     </div>
+                   </div>
+                   </div>
+                 </div>
+                </div>
+                <div class="cart-product-bot">
+                 <div class="pro-button">
+                   <a href="#" class="movetowishList"><img src="../assets/icon/wish.png" alt=""><span>Move To Wishlist</span></a>
+                   <a href="#" class="remove"><span>Remove</span></a>
+                 </div>
+                </div>
+             </div>
+             <div class="cart-product cart-product1">
+              <div class="cart-product-top">
+               <div class="pro-image">
+                 <img src="../assets/img/products/lamp.jpg" alt="">
+               </div>
+               <div class="pro-cont">
+                 <a href="" class="pro-title"><h2>Product Title Here</h2></a>
+                 <p class="pro-price">Price: <span class="discounted-price">₹ 999.00/-</span> <span class="main-price">₹1499.00/-</span></p>    
+                 <div class="prod-num">
+                   <div class="pro-size">
+                     <p>Size: <span>S</span></p>
+                 </div>
+                 <div class="pro-quantity">
+                   <p>Quantity:</p>
+                   <div class="prod-quantity">
+                     <button onclick="decreaseQuantity()">-</button>
+                     <input type="number" id="quantityInput" value="1" min="1" >
+                     <button onclick="increaseQuantity()">+</button>
+                   </div>
+                 </div>
+                 </div>
+               </div>
+              </div>
+              <div class="cart-product-bot">
+               <div class="pro-button">
+                 <a href="#" class="movetowishList"><img src="../assets/icon/wish.png" alt=""><span>Move To Wishlist</span></a>
+                 <a href="#" class="remove"><span>Remove</span></a>
+               </div>
+              </div>
+           </div>
+
+              </div>  
+            </div>
+          </div>
+        </div>
+        <div class="cart-main-checkout">
+          <div class="cart-main">
+            <div class="cart-head">
+              <h2>Checkout ↓</h2>
+            </div>
+            <div class="cart-checkout-main">
+
+              <div class="deliver-to">
+                <div class="deliver-to-head">
+                  <h2>Deliver To</h2>
+                   <a class="change-deliver-to">Change</a>
+                </div>
+                <hr>
+                <div class="deliver-to-cont">
+                  <h3>Address Name</h3>
+                  <p class="address-line1">Address Line 1</p>
+                  <p class="address-line2">Address Line 2</p>
+                  <p class="address-line3">Pin ,City, State</p>
+                  <p class="phone">ph :9999999999</p>
+                </div>
+              </div>
+              <div class="cart-total">
+                <div class="cart-total-head">
+                 <div class="cart-product">
+                  <p class="product-name">Product Name</p>
+                  <p>×</p>
+                  <p class="product-quantity">2</p>
+                  <p>=</p>
+                  <p class="product-total"><span>₹998.00/-</span></p>
+                 </div>
+                 <div class="cart-product">
+                  <p class="product-name">Product Name</p>
+                  <p>×</p>
+                  <p class="product-quantity">2</p>
+                  <p>=</p>
+                  <p class="product-total"><span>₹998.00/-</span></p>
+                 </div>
+                 <div class="cart-product">
+                  <p class="product-name">Product Name</p>
+                  <p>×</p>
+                  <p class="product-quantity">2</p>
+                  <p>=</p>
+                  <p class="product-total"><span>₹998.00/-</span></p>
+                 </div>
+               </div>
+               <div class="cart-total-bot">
+                 <div class="cart-final">
+                  <h4 class="sub-total">Sub Total:<span>₹7965.00/-</span></h4>
+                  <h4 class="processing-fee">Processing Fee:<span>₹150.00/-</span></h4>
+                  <hr>
+                  <h1 class="total-fee">Total:<span>₹8115.00/-</span></h1>
+                 </div>
+                 <div class="cart-button">
+                   <a href="">Proceed To Pay</a>
+                 </div>
+                </div>
+               </div>
+
+            </div>
+          </div>
+            <!-- address model -->
+         <div class="address-model model">
+          <div class="address-model-head">
+            <h2>Choose Address ↓</h2>
+            <a class="cross">X</a>
+          </div>
+           <div class="address-change scroll">
+            <div class="address-change-main">
+            <!-- address main -->
+              <label  class="address">
+                <input type="radio" name="addressSelection" value="address" checked>
+                <div class="address-div">
+                   <h2>Address Name</h2>
+                    <p class="address-line1">Address Line 1</p>
+                    <p class="address-line2">Address Line 2</p>
+                    <p class="address-line3">Pin ,City, State</p>
+                    <p class="phone">ph :9999999999</p>
+                </div>
+            </label>
+            <!-- end address main -->
+            <label  class="address">
+              <input type="radio" name="addressSelection" value="address" checked>
+              <div class="address-div">
+                 <h2>Address Name</h2>
+                  <p class="address-line1">Address Line 1</p>
+                  <p class="address-line2">Address Line 2</p>
+                  <p class="address-line3">Pin ,City, State</p>
+                  <p class="phone">ph :9999999999</p>
+              </div>
+          </label>
+          <label  class="address">
+            <input type="radio" name="addressSelection" value="address" checked>
+            <div class="address-div">
+               <h2>Address Name</h2>
+                <p class="address-line1">Address Line 1</p>
+                <p class="address-line2">Address Line 2</p>
+                <p class="address-line3">Pin ,City, State</p>
+                <p class="phone">ph :9999999999</p>
+            </div>
+        </label>
+        <label  class="address">
+          <input type="radio" name="addressSelection" value="address" checked>
+          <div class="address-div">
+             <h2>Address Name</h2>
+              <p class="address-line1">Address Line 1</p>
+              <p class="address-line2">Address Line 2</p>
+              <p class="address-line3">Pin ,City, State</p>
+              <p class="phone">ph :9999999999</p>
+          </div>
+      </label>
+           
+           </div>
+          </div>
+           <div class="address-button">
+            <a href="">Done</a>
+           </div>
+        </div>
+        <!-- end address model -->
+        </div>
+       
+      </div>   
+
+    </div>
+  </section>
+ <!-- end cart main -->
+
 
    <!-- footer section -->
    <section id="footer">
@@ -255,6 +547,24 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 </script>
+
+
+  <!-- increaseQuantity -->
+  <script>
+    function increaseQuantity() {
+  var quantityInput = document.getElementById('quantityInput');
+  quantityInput.value = parseInt(quantityInput.value) + 1;
+}
+
+function decreaseQuantity() {
+  var quantityInput = document.getElementById('quantityInput');
+  var currentValue = parseInt(quantityInput.value);
+  if (currentValue > 1) {
+    quantityInput.value = currentValue - 1;
+  }
+}
+  </script>
+  <!-- end increaseQuantity -->
     
 </body>
 </html>
