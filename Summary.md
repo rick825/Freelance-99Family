@@ -7,5 +7,3 @@ HTML ↓
 ✔subcategory --  subcategory.html
 ✔product     --  product.html
 ✔User        --  index.html, account.html, order.html, cart.html, wish.html.
-
-

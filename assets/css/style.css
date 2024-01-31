@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -9,8 +9,7 @@
 
 html{
  font-size: 10px;
- /* font-family: 'Jura', sans-serif; */
- font-family: montserrat;
+ font-family: 'Jura', sans-serif;
  scroll-behavior: smooth;
 }
 
@@ -30,12 +29,10 @@ body{
   align-items: center;
   letter-spacing: 1px;
   margin:1rem 4rem;
-  font-family: Bebas neue bold;
 }
 
 .head99 h2{
   margin-left: -1rem;
-  font-family: Bebas neue bold;
 }
 
 .head99 .explorebtn a{

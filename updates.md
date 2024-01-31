@@ -1,5 +1,10 @@
 ✔Below are the latest updates
 
+🔅Update -30 Jan 2024
+💨01. Updated File - wish.html (./user/foruser/wish.html) and wishlist.css (./assets/css/wishlist.html).
+      * Updated Font - primary and secondary.
+      ✔ Todo - replace all HTML Files and asset folder with new ones.
+
 🔅Update - 28 Jan 2024
 💨01. Updated File - All HTML Files & all css files.
       * Updated Font - primary and secondary.

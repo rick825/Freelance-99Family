@@ -19,3 +19,5 @@
 🔅COMMIT 26 JAN 2024 - ✔Updates refer updates.md.
 
 🔅COMMIT 28 JAN 2024 - ✔Cart Section: Checkout, Mobile version,  ✔Updates refer updates.md.
+
+🔅COMMIT 30 JAN 2024 - ✔Wishlist section: Mobile version,  ✔Updates refer updates.md.
