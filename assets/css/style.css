@@ -9,7 +9,9 @@
 
 html{
  font-size: 10px;
- font-family: 'Jura', sans-serif;
+ /* font-family: 'Jura', sans-serif; */
+ /* font-family: Bebas neue bold; */
+ font-family: montserrat;
  scroll-behavior: smooth;
 }
 
@@ -71,6 +73,7 @@ body{
 /* font */
 .primary-font{
   font-family: Bebas neue bold;
+  color: black;
 }
 
 .secondary-font{

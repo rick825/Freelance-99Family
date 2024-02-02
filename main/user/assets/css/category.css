@@ -12,7 +12,7 @@ body{
 .cmain{
     width: 100%;
     height: 70rem;
-    margin-top: 13rem;
+    margin-top: 15rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -27,7 +27,7 @@ body{
  position: relative;
  font-size: 2.2rem;
  letter-spacing: 1px;
- margin-top: 1rem;
+ margin-top: 2rem;
 }
 
 .cmainhead h3{

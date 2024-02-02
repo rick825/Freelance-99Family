@@ -165,10 +165,11 @@ margin-left: 1rem;
     justify-content: center;
     padding: 1.5rem 0rem;
     cursor: pointer;
+    gap:0.1rem;
 }
 
 .navlogo img{
-    width: 50px;
+    width: 80px;
 }
 
 .navlogo h2{
@@ -177,8 +178,8 @@ margin-left: 1rem;
   color: #d6a719;
   /* float: right; */
   letter-spacing: 1.5px;
-  margin-left: 0.5rem;
   padding-bottom: 2px;
+  margin-top: -1rem;
   border-bottom: 1.8px solid rgb(93,64,110);
 /* font-family: 'Jura', sans-serif; */
 }
@@ -216,7 +217,7 @@ margin-left: 1rem;
 	margin-left: 3rem;
 	margin-bottom: -1rem;
 	text-transform: uppercase;
-	font-family: 'Jura', sans-serif;
+	/* font-family: 'Jura', sans-serif; */
 
 }
 
@@ -443,7 +444,7 @@ margin-left: 1rem;
     /* background-color: white; */
      visibility: hidden;
      transform: translateY(-5rem);
-     width: 10rem;
+     width:10rem;
      display: flex;
      flex-direction: column;
      position: absolute;
@@ -468,7 +469,7 @@ margin-left: 1rem;
    }
    
    .dropdown .dropm{
-     width: 25.5rem;
+     width: 24.1rem;
      border-right: 2px solid #dea81e;
    }
    

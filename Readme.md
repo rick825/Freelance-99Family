@@ -21,3 +21,5 @@
 🔅COMMIT 28 JAN 2024 - ✔Cart Section: Checkout, Mobile version,  ✔Updates refer updates.md.
 
 🔅COMMIT 30 JAN 2024 - ✔Wishlist section: Mobile version,  ✔Updates refer updates.md.
+
+🔅COMMIT 02 FEB 2024 - ✔Updated Logo,Primary and Secondary Font
