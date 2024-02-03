@@ -410,7 +410,7 @@ margin-left: 1rem;
 
 .navbot .shopbycat .shopmain{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
   margin-left: 20rem;
   background-color: rgb(79, 79, 80);
   padding: 1.5rem;

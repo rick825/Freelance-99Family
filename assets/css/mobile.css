@@ -131,7 +131,7 @@
     }
 
     .navbot .shopbycat .shopmain{
-        margin-left: -12rem;
+        margin-left: -14rem;
         z-index: 1000;
         margin-top: 12rem;
     }
@@ -139,7 +139,7 @@
     .shopbycat ul{
         background-color: transparent;
         color: white;
-        left:-1.5rem;
+        left:-2.4rem;
         z-index: 100;
         margin-top: 2rem;
     }
