@@ -23,3 +23,5 @@
 🔅COMMIT 30 JAN 2024 - ✔Wishlist section: Mobile version,  ✔Updates refer updates.md.
 
 🔅COMMIT 02 FEB 2024 - ✔Updated Logo,Primary and Secondary Font
+
+🔅COMMIT 03 FEB 2024 - ✔Updates refer updates.md.

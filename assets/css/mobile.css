@@ -257,6 +257,10 @@
 
 
   /* product section */
+  .prod-main{
+  margin-top: 8rem;
+  }
+
   .bot-prod-main{
    flex-direction: column;
   }

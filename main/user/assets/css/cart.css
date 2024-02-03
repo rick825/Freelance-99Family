@@ -5,7 +5,7 @@
 .cartmain{
     width: 100%;
     height: 80rem;
-    margin-top: 15rem;
+    margin-top: 16rem;
     position: relative;
     /* border: 2px solid black; */
     display: flex;
@@ -526,7 +526,7 @@ width: 25%;
     .cartmain{
         height:144rem;
         flex-direction: column;
-        margin-top: 5rem;
+        margin-top: 6rem;
         padding: 2rem;
     }
 

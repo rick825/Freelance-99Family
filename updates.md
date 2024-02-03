@@ -1,5 +1,13 @@
 ✔Below are the latest updates
 
+🔅Update -03 Feb 2024
+💨01. Updated File - account.html, cart.html, order.html and wishlist.html.
+        ✔ Todo - replace all HTML Files  from  "/main/user/foruser" with new ones.
+
+💨02. Updated File - Product.css, Mobile.css, cart.css, order.css, wishlist.css and Account.css.
+        ✔ Todo - replace all css Files from "/assets/css"  with new ones.
+
+
 🔅Update -30 Jan 2024
 💨01. Updated File - wish.html (./user/foruser/wish.html) and wishlist.css (./assets/css/wishlist.html).
       * Updated Font - primary and secondary.
