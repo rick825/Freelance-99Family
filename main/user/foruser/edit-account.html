@@ -6,6 +6,7 @@
     <title>Edit Account</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/edit-account.css">
     <link rel="stylesheet" href="../assets/css/account.css">
     <link rel="stylesheet" href="../assets/css/mobile.css">
 </head>
@@ -15,11 +16,6 @@
    <section id="nav">
     <div class="nav">
       <div class="backblacknav"></div>
-      <div class="ham">
-           <div class="line l1"></div>
-           <div class="line l2"></div>
-           <div class="line l3"></div>
-         </div>
                    <div class="navtop">
                        <div class="navsocial">
                <ul>
@@ -104,6 +100,11 @@
                         </li>
                       </ul>
                    </div>
+                   <div class="ham">
+                    <div class="line l1"></div>
+                    <div class="line l2"></div>
+                    <div class="line l3"></div>
+                  </div>
                </div>
 
                <div class="navbot">
@@ -152,42 +153,36 @@
    <section id="account">
     <div class="account account-main ">
       <!-- ac main -->
-        <div class="ac-left ac-cont">
-          <div class="acleftcont">
-          <div class="acl-top">
-            <div class="acl-profile">
-              <div class="acl-pic">
-                <img src="../assets/img/profile.png" alt="">
+        <div class="ac-main">
+            <div class="acl-top">
+                <div class="acl-profile">
+                    <form id="editProfileForm">
+                  <div class="acl-pic">
+                    <img src="../assets/img/profile.png" alt="">
+                    <input type="file" id="profilePictureInput" accept="image/*" >
+                  </div>
+                   <div class="acl-input">
+                    <h2>Edit Profile</h2>
+                    <div class="inputs">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Akash Kumar Das" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="rickak@gmail.com" required>
+            
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 9666669999" required>
+                  </div> 
+                  </div>
+                   <div class="acl-icon">
+                      <a href=""><button>Save Changes</button></a>
+                   </div>
+                </form>
+                </div>
+                <hr>
               </div>
-               <div class="acl-info">
-                <h2 >Akash Kumar Das</h2>
-                 <p><span>Email:</span> rickak@gmail.com</p>
-                 <p><span>Phone:</span> +91 9666669999</p>
-               </div>
-               <div class="acl-icon">
-                   <a href=""><button><img src="../assets/icon/edit.png" alt=""></button></a>
-                   <a href=""><button><img src="../assets/icon/cart.png" alt=""></button></a>
-                   <a href=""><button class="wishbut"><img src="../assets/icon/wish.png" alt=""></button></a>
-               </div>
-            </div>
-            <hr>
-          </div>
-          <div class="acl-bot">
-             <div class="acl-list">
-              <ul class="navlist">
-                <li class="navitem address">My Address</li>
-                <li class="navitem reviews">My Reviews</li>
-                <li class="navitem contact">Contact</li>
-                <li class="navitem help">Help</li>
-              </ul>
-             </div>
-          </div>
-        </div>
-      </div>
+           </div>
      <!-- end ac main -->
-
-          </div>
-        </div>
     </div>
    </section>
    <!-- end account main -->
@@ -226,7 +221,7 @@
          </div>
          <div class="flist2 flist">
            <div class="foothead">
-             <h2 class="primary-font">My99Account</h2>
+             <h2 class="primary-font">My Account</h2>
            </div>
             <ul>
              <li><a href="">My Account</a></li>

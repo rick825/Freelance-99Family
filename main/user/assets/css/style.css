@@ -561,8 +561,12 @@ body{
 
 .footer .footlogo .flogo h2{
   margin-top: -1rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
+
+ .flogo h2:before{
+  left:10%;
+ }
 
 .footer .footlogo .ftext{
   font-size: 1.2rem;

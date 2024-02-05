@@ -1,24 +1,30 @@
 @media only screen and (max-width: 600px){
 
-
     /*nav section*/
          .ham{
-             min-width: 4rem;
+             min-width: 5rem;
              min-height: 1rem;
-             border: 2px solid orange;
-             position: fixed;
-            right: 1%;
-             top: 4.1%;
-             padding: 0.5rem;
+             margin-top: 0.7rem;
+             position: relative;
+             padding: 0.5rem 0;
+             padding-right: 0.8rem;
           display: block;
           z-index: 100000000;
          }
     
          
          .ham .line{
-             width: 2.5rem;
+             width: 3.4rem;
              border: 2px solid orange;
-             margin: 0.4rem;
+             margin: 0.55rem;
+         }
+
+         .ham .l1{
+          width: 1.6rem;
+         }
+
+         .ham .l2{
+            width: 2.5rem;
          }
     
          .backblacknav{
@@ -50,13 +56,24 @@
     /* navmid section */
     .navmid{
     width: 100%;
-   
     justify-content: center;
     }
 
    .navlogo{
-    width: 55%;
+    width: 50%;
     /* border: 2px solid black; */
+   }
+
+   .navlogo img{
+      width: 60px;
+   }
+
+   .navlogo h2{
+      font-size: 2.1rem;
+   }
+
+   .navlogo h2:before{
+      font-size: 0.6rem;
    }
 
    .navright{
@@ -68,8 +85,16 @@
         display: none;
     }
 
+    .navright ul{
+    margin-left: 5.2rem;
+    }
+
     .navright ul li{
-    margin-left: 1rem;
+    margin-left: 1.2rem;
+    }
+
+    .navmid{
+      align-items: center;
     }
 
     .navmid .navinstext{
@@ -78,6 +103,10 @@
 
     .navright .navinsimg{
         display: block;
+    }
+
+    .navright .navins img{
+      width: 20px;
     }
 
     .navright .navwish{
@@ -369,6 +398,12 @@
    margin-top: 4rem;
    margin-left: 0;
   }
+
+   .topm .topoffer{
+      margin-left: 0;
+      margin-top: 1rem;
+   } 
+
   /* end category 2 section */
 /* end category section */
 

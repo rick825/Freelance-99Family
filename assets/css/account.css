@@ -46,7 +46,7 @@
 }
 
 
-.ac-left .acl-top{
+.acl-top{
     width: 70%;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@
     z-index: 1;
 }
 
-.ac-left .acl-top .acl-profile{
+.acl-top .acl-profile{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,27 +71,27 @@
     letter-spacing: 1.2px;
 }
 
-.ac-left .acl-top .acl-profile .acl-pic{
+.acl-top .acl-profile .acl-pic{
     border: 2px solid black;
     border-radius: 10px;
 }
 
-.ac-left .acl-top .acl-profile  .acl-info{
+.acl-top .acl-profile  .acl-info{
     margin-top: 1rem;
     text-align: center;
 }
 
-.ac-left .acl-top .acl-profile  .acl-info h2{
+.acl-top .acl-profile  .acl-info h2{
     font-size: 2rem;
 }
 
-.ac-left .acl-top .acl-profile  .acl-info p{
+.acl-top .acl-profile  .acl-info p{
     margin-top: 0.8rem;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
-.ac-left .acl-top .acl-profile  .acl-icon{
+.acl-top .acl-profile  .acl-icon{
     margin-top: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.032);
     border-radius: 10px;
@@ -99,7 +99,7 @@
 }
 
 
-.ac-left .acl-top .acl-profile  .acl-icon button{
+.acl-top .acl-profile  .acl-icon button{
  padding: 0.8rem 3.6rem;
  cursor: pointer;
  background-color: transparent;
@@ -108,27 +108,27 @@
  
 }
 
-.ac-left .acl-top .acl-profile  .acl-icon a{
+.acl-top .acl-profile  .acl-icon a{
     margin: 0;
 }
 
 
-.ac-left .acl-top .acl-profile  .acl-icon button:hover{
+.acl-top .acl-profile  .acl-icon button:hover{
     background-color: rgba(255, 255, 253, 0.825);
 }
 
 
-.ac-left .acl-top .acl-profile  .acl-icon .wishbut{
+.acl-top .acl-profile  .acl-icon .wishbut{
     border-right: none;
     border: none;
 }
 
-.ac-left .acl-top .acl-profile  .acl-icon img{
+.acl-top .acl-profile  .acl-icon img{
     width: 20px;
 }
 
 
-.ac-left .acl-bot{
+.acl-bot{
     width: 70%;
     height: 30rem;
     background-color: #d3d2d436;
@@ -187,6 +187,15 @@
 
 .ac-rightc .acr-head{
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ac-rightc .acr-head a{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2rem;
 }
 
 .ac-rightc .acr-cont{
@@ -199,9 +208,9 @@
     width: 20rem;
     height: 15rem;
   border: 1px solid rgba(0, 0, 0, 0.315);
-  margin-left: 2rem;
+  margin-left: 4rem;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* address */

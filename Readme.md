@@ -25,3 +25,5 @@
 🔅COMMIT 02 FEB 2024 - ✔Updated Logo,Primary and Secondary Font
 
 🔅COMMIT 03 FEB 2024 - ✔Updates refer updates.md.
+
+🔅COMMIT 05 FEB 2024 - ✔Updates refer updates.md.

@@ -1,11 +1,35 @@
 ✔Below are the latest updates
 
+🔅Update -05 Feb 2024 
+💨01. Updated - Footer - for all Html files, All CSS files
+        ✔ Todo  - replace all HTML Files with new ones.
+
+ 💨02. Updated - Nav Section - for all Html files, All CSS files
+        ✔ Todo  - replace all HTML and CSS Files with new ones.   
+
+💨03. Updated - Sub-category.html, product.html, cart.html & wishlist.html with "Bag" in place of cart .
+        ✔ Todo  - replace all above mentioned HTML and CSS Files with new ones.
+                 - Also replace icon folder with newone.          
+
+
+🔅Update -03 Feb 2024 -> Edit Profile and Add Address
+💨01. Added - edit-profile.html and add-address.html
+        ✔ Todo - Add HTML Files from "/main/user/foruser" .
+
+💨02. Updated File - account.html-(line 195) and account.css.
+        ✔ Todo - replace these HTML and CSS File with new ones.
+
+
+
 🔅Update -03 Feb 2024
 💨01. Updated File - account.html, cart.html, order.html and wishlist.html.
         ✔ Todo - replace all HTML Files  from  "/main/user/foruser" with new ones.
 
 💨02. Updated File - Product.css, Mobile.css, cart.css, order.css, wishlist.css and Account.css.
         ✔ Todo - replace all css Files from "/assets/css"  with new ones.
+
+
+
 
 
 🔅Update -30 Jan 2024
