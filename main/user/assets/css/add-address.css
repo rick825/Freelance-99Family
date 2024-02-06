@@ -1,0 +1,62 @@
+.ac-main{
+}
+
+.address form h2{
+  font-size: 2rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+}
+
+
+.address .address-name{
+    margin-top: 2rem;
+}
+
+.address label{
+    font-size: 1.4rem;
+}
+
+.address .address-line-bot{
+    width: 100%;
+    display: flex;
+    gap:2rem;
+    margin-top: 1rem;
+}
+
+
+.address .address-but{
+    width: 100%;
+    /* width: 8rem; */
+}
+
+
+
+.address input{
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.address .address-but button{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .address{
+        margin-top: 6rem;
+    }
+}

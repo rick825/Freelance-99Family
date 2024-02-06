@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Account</title>
+    <title>Edit Address</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
-    <link rel="stylesheet" href="../assets/css/account.css">
+    <link rel="stylesheet" href="../assets/css/add-address.css">
     <link rel="stylesheet" href="../assets/css/edit-account.css">
+    <link rel="stylesheet" href="../assets/css/account.css">
     <link rel="stylesheet" href="../assets/css/mobile.css">
 </head>
 <body>
@@ -155,33 +156,42 @@
       <!-- ac main -->
         <div class="ac-main">
             <div class="acl-top">
-                <div class="acl-profile">
-                  <h2>Edit Profile</h2>
+                <div class="acrc address address1">
 
-                    <form id="editProfileForm">
-                  <div class="acl-pic">
-                    <img src="../assets/img/profile.png" alt="">
-                    <input type="file" id="profilePictureInput" accept="image/*" >
-                  </div>
-                   <div class="acl-input">
-                    <div class="inputs">
-                    <label for="fullName">Full Name:</label>
-                    <input type="text" id="fullName" name="fullName" placeholder="Akash Kumar Das" required>
-            
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="rickak@gmail.com" required>
-            
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="+91 9666669999" required>
-                  </div> 
-                  </div>
-                   <div class="acl-icon">
-                      <a href=""><button>Save Changes</button></a>
-                   </div>
+                    <form action="">
+                        <h2>Edit Address</h2>
+                    <div class="address-name">
+                      <label for="">Address Name</label>
+                      <input type="text" placeholder="Enter Address Name">
+                    </div>
+                    <div class="address-line">
+                        <div class="address-line-top">
+                         <label for="">Address Line 1</label>
+                         <input type="text" placeholder="Enter Address Line 1">
+                         <label for="">Address Line 2</label>
+                         <input type="text" placeholder="Enter Address Line 2">
+                        </div>
+                        <div class="address-line-bot">
+                        <div class="row1">
+                          <label for="">Pincode</label>
+                          <input type="number" placeholder="Enter pin">
+                          <label for="">City</label>
+                          <input type="text" placeholder="Enter City">
+                        </div>
+                        <div class="row2">
+                          <label for="">State</label>
+                          <input type="text" placeholder="Enter State">
+                          <label for="">Phone Number</label>
+                          <input type="number" placeholder="Enter Phone Number(+91)">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="address-but">
+                      <button class="Submit">Submit</button>
+                    </div>
                 </form>
 
                 </div>
-                <hr>
               </div>
            </div>
      <!-- end ac main -->

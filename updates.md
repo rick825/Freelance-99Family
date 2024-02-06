@@ -4,12 +4,14 @@
 💨01. Updated - Footer - for all Html files, All CSS files
         ✔ Todo  - replace all HTML Files with new ones.
 
- 💨02. Updated - Nav Section - for all Html files, All CSS files
-        ✔ Todo  - replace all HTML and CSS Files with new ones.   
+  
 
 💨03. Updated - Sub-category.html, product.html,account.html, order.html, cart.html & wishlist.html with "Bag" in place of cart .
         ✔ Todo  - replace all above mentioned HTML and CSS Files with new ones.
                  - Also replace icon folder with newone.          
+
+💨04. Added - edit-profile.html, add-address.html and edit-address.html section.
+        ✔ Todo  - replace all HTML and CSS Files with new ones. 
 
 
 🔅Update -03 Feb 2024 -> Edit Profile and Add Address
