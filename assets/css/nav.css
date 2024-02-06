@@ -102,6 +102,11 @@ background-color:#f0ecec ;
   margin-left: -5rem;
 }
 
+.navtop .navcont .navcontitem{
+  display: flex;
+  align-items: center;
+}
+
 .navcont .navcall,.navcont .navmail{
   display: flex;
   align-items: center;
@@ -111,6 +116,9 @@ background-color:#f0ecec ;
 .navcont a{
   color: black;
   transition: 0.2s ease;
+  font-size: 1.2rem;
+  letter-spacing: 1.55px;
+  margin-left: 0.8rem;
 }
 
 .navcont a:hover {
@@ -120,13 +128,10 @@ background-color:#f0ecec ;
 .navcont img{
  width: 15px;
  margin-left: 1rem;
+ margin-top: -0.05rem;
 }
 
-.navcont p{
-  font-size: 1.2rem;
-  letter-spacing: 1.55px;
-  margin-left: 1rem;
-}
+
 
 
 .navtop .navsocial ul{

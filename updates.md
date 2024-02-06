@@ -1,6 +1,6 @@
 ✔Below are the latest updates
 
-🔅Update -05 Feb 2024 
+🔅Update -06 Feb 2024 
 💨01. Updated - Footer - for all Html files, All CSS files
         ✔ Todo  - replace all HTML Files with new ones.
 

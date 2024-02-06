@@ -3,10 +3,6 @@ body{
  /* overflow: hidden; */
 }
 
-.navtop{
-    display: none;
-}
-
 
 
 .cmain{
@@ -41,7 +37,7 @@ body{
 .catem{
     width: 100%;
     min-height: 70rem;
-    margin-top: 13rem;
+    margin-top: 18rem;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */

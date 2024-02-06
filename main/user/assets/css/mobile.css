@@ -49,7 +49,16 @@
     
     
     .navtop{
-        display: none;
+        /* display: none; */
+        justify-content: space-between;
+    }
+
+    .navtop .navcont{
+      margin-left: -1.5rem;
+    }
+
+    .navsocial{
+      display: none;
     }
 
 
@@ -78,7 +87,7 @@
 
    .navright{
     /* border: 2px solid black; */
-    width: 50%;
+    width: 45%;
    }
 
     .navmid .midnav{
@@ -114,7 +123,7 @@
     }
 
     .dropitem .dropdown{
-      left: -10rem;
+      left: -14rem;
       z-index: 10000;
     }
 
@@ -125,7 +134,7 @@
     .navbot{
         position: fixed;
         height: 78rem;
-        top:-4%;
+        top:-2%;
         background-color: rgb(239, 242, 245);
         flex-direction: column;
         /* justify-content: center; */
@@ -359,12 +368,14 @@
    margin-left: 2rem;
   }
   /* all categories */
-
+.all-cate-main{
+   margin-top: 9rem;
+}
 /* end all categories */
   /* category section */
   /* category 1 section */
   .catem{
-   margin-top: 7rem;
+   margin-top: 9rem;
   }
 
   .catem .catemaincont .catemaincontsec{
