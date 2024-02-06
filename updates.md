@@ -7,7 +7,7 @@
  💨02. Updated - Nav Section - for all Html files, All CSS files
         ✔ Todo  - replace all HTML and CSS Files with new ones.   
 
-💨03. Updated - Sub-category.html, product.html, cart.html & wishlist.html with "Bag" in place of cart .
+💨03. Updated - Sub-category.html, product.html,account.html, order.html, cart.html & wishlist.html with "Bag" in place of cart .
         ✔ Todo  - replace all above mentioned HTML and CSS Files with new ones.
                  - Also replace icon folder with newone.          
 
