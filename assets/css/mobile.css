@@ -177,7 +177,8 @@
     }
 
     .navbot .shopbycat .shopmain{
-        margin-left: 0rem;
+        margin-left: -12rem;
+        /* left:0; */
         z-index: 1000;
         margin-top: 12.5rem;
         position: relative;
