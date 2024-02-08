@@ -168,18 +168,41 @@
         border-bottom: 0.1px solid rgba(0, 0, 0, 0.162);
     }
 
+    .navbot .shopbycat{
+      width: 65%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     .navbot .shopbycat .shopmain{
-        margin-left: -14rem;
+        margin-left: 0rem;
         z-index: 1000;
         margin-top: 12.5rem;
+        position: relative;
     }
 
     .shopbycat ul{
+      width: 100%;
         background-color: transparent;
         color: white;
-        left:-1.8rem;
+        left:0;
+        right:0;
         z-index: 100;
         margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropmain,.dropdown{
+      width: 100%;
+     border: 2px solid black;
+    }
+
+    .dropdown .dropm{
+      position: relative;
+      margin-left: -2rem;
     }
 
     
@@ -293,12 +316,16 @@
   .cmaincontbot .cmaincright{
    height: 90%;
   }
+
+  .sub-category-head{
+   margin-top: 5rem;
+  }
   /* end category section  */
 
 
   /* product section */
   .prod-main{
-  margin-top: 8rem;
+  margin-top: 10rem;
   }
 
   .bot-prod-main{
