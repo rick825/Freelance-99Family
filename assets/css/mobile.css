@@ -194,11 +194,12 @@
         margin-top: 2rem;
         display: flex;
         justify-content: center;
+
     }
 
     .dropdown .dropm{
       position: relative;
-      margin-left: -2rem;
+      margin-left: -7.9rem;
     }
 
     
