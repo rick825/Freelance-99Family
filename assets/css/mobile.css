@@ -195,11 +195,6 @@
         justify-content: center;
     }
 
-    .dropmain,.dropdown{
-      width: 100%;
-     border: 2px solid black;
-    }
-
     .dropdown .dropm{
       position: relative;
       margin-left: -2rem;
